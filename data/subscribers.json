@@ -1,0 +1,12 @@
+[
+  {
+    "id": "subscriber-1",
+    "email": "birdlover@example.com",
+    "createdAt": "2026-04-16T08:20:00.000Z"
+  },
+  {
+    "id": "subscriber-2",
+    "email": "citywalk@example.com",
+    "createdAt": "2026-04-18T12:10:00.000Z"
+  }
+]

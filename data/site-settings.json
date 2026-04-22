@@ -1,0 +1,56 @@
+{
+  "id": "site-settings-1",
+  "siteName": "賞鳥助手",
+  "logo": "/guaniaoren-logo.png",
+  "tagline": "Urban Birding Guide",
+  "seoTitle": "賞鳥助手 | 都市賞鳥導覽個人品牌網站",
+  "seoDescription": "結合都市賞鳥導覽、鳥類教育、活動紀錄與作品展示的個人品牌官網。",
+  "contactEmail": "hello@birdingguide.tw",
+  "socialLinks": [
+    {
+      "label": "Instagram",
+      "url": "https://instagram.com"
+    },
+    {
+      "label": "Facebook",
+      "url": "https://facebook.com"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://youtube.com"
+    }
+  ],
+  "footerText": "把每一次抬頭，都變成與自然重新認識的開始。",
+  "footerBottomText": "城市裡的鳥，也值得被好好認識。",
+  "pageContent": {
+    "journal": {
+      "eyebrow": "導覽日記",
+      "title": "把每一次停下來觀察的片刻，整理成可以回頭閱讀的故事。",
+      "subtitle": "這裡收錄帶隊筆記、主題觀察與城市裡的鳥類故事，讓活動結束之後，觀察仍然能延續。"
+    },
+    "activities": {
+      "eyebrow": "都會公園導覽活動",
+      "title": "用剛好的步調走進城市綠地，讓每一場導覽都成為看見鳥類的入口。",
+      "subtitle": "活動頁整理近期導覽場次、集合地點、主題介紹與報名資訊，適合第一次參加，也適合想繼續累積觀察經驗的人。",
+      "actionLabel": "查看報名資訊",
+      "actionHref": "/activities#activity-list"
+    },
+    "services": {
+      "eyebrow": "服務項目",
+      "title": "從單場導覽到團體課程，依照對象與場地規劃合適的賞鳥體驗。",
+      "subtitle": "可安排都市公園導覽、黑冠麻鷺主題場、親子自然觀察與團體客製活動，讓每一場都能對應參與者的程度與目標。",
+      "actionLabel": "聯絡客製導覽",
+      "actionHref": "/contact"
+    },
+    "portfolio": {
+      "eyebrow": "作品集",
+      "title": "用照片、影片與教學整理，把導覽經驗延伸成可以反覆閱讀的作品。",
+      "subtitle": "這裡收錄活動成果、鳥類觀察主題、教案與影像紀錄，讓品牌不只停留在單次活動。"
+    },
+    "contact": {
+      "eyebrow": "聯絡我",
+      "title": "想一起策劃導覽、邀約合作，或只是想聊聊你最近看到的鳥，都可以來信。",
+      "subtitle": "填寫表單後，我會盡快回覆。也可以直接透過 Email 或社群找到我。"
+    }
+  }
+}

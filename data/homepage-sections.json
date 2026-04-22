@@ -1,0 +1,217 @@
+[
+  {
+    "id": "home-hero",
+    "sectionKey": "hero",
+    "title": "在城市裡，也能慢慢走進鳥類世界",
+    "subtitle": "這是一個結合賞鳥導覽、鳥類教育與自然觀察的平台，陪你從熟悉的公園與步道開始，看見都市與自然交會的生命節奏。",
+    "content": "帶著望遠鏡、筆記本與好奇心，從常見鳥種開始，理解棲地、行為與環境。",
+    "image": "https://picsum.photos/seed/bird-home-hero/1600/960",
+    "extraJson": {
+      "primaryButtonLabel": "查看最新活動",
+      "primaryButtonHref": "#latest-news",
+      "secondaryButtonLabel": "認識我",
+      "secondaryButtonHref": "#about"
+    },
+    "updatedAt": "2026-04-20T06:00:00.000Z"
+  },
+  {
+    "id": "home-news",
+    "sectionKey": "news",
+    "title": "最新消息",
+    "subtitle": "從新手友善的公園導覽到主題觀察課，每次活動都會安排清楚的集合資訊與觀察重點。",
+    "content": "",
+    "image": "",
+    "extraJson": {
+      "buttonLabel": "點我看更多",
+      "buttonHref": "/activities",
+      "items": [
+        {
+          "id": "news-1",
+          "date": "05/03",
+          "time": "07:00 - 09:00",
+          "location": "大安森林公園",
+          "title": "晨光賞鳥導覽",
+          "summary": "認識城市常見鳥種與不同棲地線索。",
+          "buttonLabel": "查看更多",
+          "href": "/activities"
+        },
+        {
+          "id": "news-2",
+          "date": "05/10",
+          "time": "15:30 - 17:30",
+          "location": "青年公園",
+          "title": "黑冠麻鷺探險家",
+          "summary": "親子也能輕鬆加入的城市賞鳥主題活動。",
+          "buttonLabel": "查看更多",
+          "href": "/activities"
+        },
+        {
+          "id": "news-3",
+          "date": "05/17",
+          "time": "09:00 - 11:30",
+          "location": "板橋都會綠地",
+          "title": "雨天觀察課",
+          "summary": "用更慢的步調，重新認識雨後城市裡的鳥類行為。",
+          "buttonLabel": "查看更多",
+          "href": "/activities"
+        }
+      ]
+    },
+    "updatedAt": "2026-04-20T06:00:00.000Z"
+  },
+  {
+    "id": "home-about",
+    "sectionKey": "about",
+    "title": "關於我",
+    "subtitle": "我是觀鳥人，也是城市裡帶路的賞鳥導覽者。",
+    "content": "我喜歡賞鳥、登山與自然觀察，更喜歡把這些經驗整理成大家聽得懂、走得進去的導覽活動。對我來說，賞鳥不只是看見羽毛顏色，而是理解牠們如何依靠棲地、如何移動、如何在城市邊緣與我們共處。透過導覽，我希望讓更多人知道：只要願意慢下來，都市裡也有豐富而細緻的鳥類世界。",
+    "image": "https://picsum.photos/seed/bird-about-guide/1200/1400",
+    "extraJson": {},
+    "updatedAt": "2026-04-20T06:00:00.000Z"
+  },
+  {
+    "id": "home-stats",
+    "sectionKey": "stats",
+    "title": "和更多人一起打開觀察的視角",
+    "subtitle": "讓導覽不只是一次活動，而是一種重新看待生活環境的方法。",
+    "content": "",
+    "image": "",
+    "extraJson": {
+      "items": [
+        {
+          "id": "stat-1",
+          "icon": "binoculars",
+          "title": "願景",
+          "content": "改變大家對鳥類的想像，讓牠們不只是背景，而是值得被理解的鄰居。"
+        },
+        {
+          "id": "stat-2",
+          "icon": "leaf",
+          "title": "目標",
+          "content": "讓更多人從一次導覽開始，對鳥類與棲地產生穩定而長久的興趣。"
+        },
+        {
+          "id": "stat-3",
+          "icon": "people",
+          "title": "目前參與人數",
+          "content": "已陪伴城市裡的觀察者一起出走與記錄。",
+          "value": "87 人"
+        }
+      ]
+    },
+    "updatedAt": "2026-04-20T06:00:00.000Z"
+  },
+  {
+    "id": "home-flow",
+    "sectionKey": "flow",
+    "title": "都市鳥類導覽活動流程",
+    "subtitle": "從集合說明到觀察分享，每一步都讓新手也能安心跟上。",
+    "content": "",
+    "image": "",
+    "extraJson": {
+      "buttonLabel": "填寫導覽建議",
+      "buttonHref": "/contact",
+      "items": [
+        {
+          "id": "flow-1",
+          "step": "01",
+          "title": "活動介紹與集合",
+          "content": "確認今日路線、觀察主題與安全提醒，建立大家的觀察節奏。"
+        },
+        {
+          "id": "flow-2",
+          "step": "02",
+          "title": "觀察常見鳥種與棲地",
+          "content": "從草地、水域、樹冠層開始，理解不同環境裡常見的活動線索。"
+        },
+        {
+          "id": "flow-3",
+          "step": "03",
+          "title": "現地解說鳥類特徵與行為",
+          "content": "透過姿態、聲音、移動方式與覓食行為做初步辨識。"
+        },
+        {
+          "id": "flow-4",
+          "step": "04",
+          "title": "記錄與分享觀察心得",
+          "content": "用簡單筆記留下今天看到的鳥與棲地，讓導覽結束後仍能延續觀察。"
+        }
+      ]
+    },
+    "updatedAt": "2026-04-20T06:00:00.000Z"
+  },
+  {
+    "id": "home-showcase",
+    "sectionKey": "showcase",
+    "title": "導覽活動開箱",
+    "subtitle": "在都市公園、動物園周邊與校園綠帶裡，一邊走一邊觀察巢位、鳥類行為與棲地線索。",
+    "content": "我會把導覽安排成容易進入的節奏，不急著追鳥，而是先學會看環境。當大家開始注意到水邊、樹縫、草地與高空之間的差異時，鳥類就不再只是偶然出現，而是會慢慢變成看得懂的生活風景。",
+    "image": "",
+    "extraJson": {
+      "images": [
+        {
+          "id": "show-1",
+          "title": "集合後的雙筒望遠鏡示範",
+          "image": "https://picsum.photos/seed/bird-showcase-1/900/680"
+        },
+        {
+          "id": "show-2",
+          "title": "水岸邊的停棲觀察",
+          "image": "https://picsum.photos/seed/bird-showcase-2/900/680"
+        },
+        {
+          "id": "show-3",
+          "title": "帶隊記錄常見鳥種",
+          "image": "https://picsum.photos/seed/bird-showcase-3/900/680"
+        },
+        {
+          "id": "show-4",
+          "title": "親子一起看巢位線索",
+          "image": "https://picsum.photos/seed/bird-showcase-4/900/680"
+        }
+      ]
+    },
+    "updatedAt": "2026-04-20T06:00:00.000Z"
+  },
+  {
+    "id": "home-series",
+    "sectionKey": "series",
+    "title": "觀鳥人的導覽活動系列",
+    "subtitle": "從新手入門到主題探索，每一場都有不同的觀看方式。",
+    "content": "",
+    "image": "",
+    "extraJson": {
+      "items": [
+        {
+          "id": "series-1",
+          "title": "都會公園賞鳥活動",
+          "description": "給第一次參加的朋友，從常見鳥種、棲地結構與觀察節奏開始，帶你建立自己的入門方法。",
+          "image": "https://picsum.photos/seed/bird-series-1/1200/900",
+          "href": "/activities"
+        },
+        {
+          "id": "series-2",
+          "title": "黑冠麻鷺探險家",
+          "description": "以城市裡最有故事感的主角為核心，帶大家理解覓食、移動與與人共處的關係。",
+          "image": "https://picsum.photos/seed/bird-series-2/1200/900",
+          "href": "/activities"
+        }
+      ]
+    },
+    "updatedAt": "2026-04-20T06:00:00.000Z"
+  },
+  {
+    "id": "home-subscribe",
+    "sectionKey": "subscribe",
+    "title": "正在籌備中",
+    "subtitle": "訂閱我的導覽活動網站，馬上收到最新消息。",
+    "content": "",
+    "image": "",
+    "extraJson": {
+      "placeholder": "輸入你的 Email",
+      "buttonLabel": "訂閱通知",
+      "successMessage": "已收到你的訂閱，之後有新活動會第一時間通知你。"
+    },
+    "updatedAt": "2026-04-20T06:00:00.000Z"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "service-1",
+    "title": "都市公園賞鳥導覽",
+    "subtitle": "適合第一次賞鳥，也適合想重新認識城市綠地的人。",
+    "description": "以捷運可抵達的公園為主要場域，從環境觀察、鳥種辨識、行為故事與拍攝角度開始，帶大家建立自己的賞鳥節奏。",
+    "duration": "2.5 - 3 小時",
+    "price": "NT$800 起",
+    "image": "https://picsum.photos/seed/bird-service-1/1200/820",
+    "features": [
+      "常見鳥種與相似鳥種辨識",
+      "棲地、姿態、叫聲的觀察方法",
+      "活動照片整理與導覽後回顧"
+    ],
+    "sortOrder": 1
+  },
+  {
+    "id": "service-2",
+    "title": "黑冠麻鷺探險家",
+    "subtitle": "從城市裡最容易親近的明星鳥種開始。",
+    "description": "帶領大家認識黑冠麻鷺的生活環境、覓食行為與觀察倫理，適合親子、學生與第一次參與生態導覽的朋友。",
+    "duration": "2 - 3 小時",
+    "price": "單人票 NT$600 起",
+    "image": "https://picsum.photos/seed/bird-service-2/1200/820",
+    "features": [
+      "黑冠麻鷺行為與棲地介紹",
+      "近距離觀察時的安全距離",
+      "親子互動任務與觀察紀錄"
+    ],
+    "sortOrder": 2
+  },
+  {
+    "id": "service-3",
+    "title": "校園與親子自然觀察",
+    "subtitle": "把賞鳥變成孩子能理解、能參與的戶外課。",
+    "description": "依年齡和場地設計觀察任務，讓參與者用眼睛、耳朵和紀錄表認識身邊的鳥類與環境變化。",
+    "duration": "90 分鐘 - 2 小時",
+    "price": "依人數報價",
+    "image": "https://picsum.photos/seed/bird-service-3/1200/820",
+    "features": [
+      "可搭配學習單與任務卡",
+      "適合學校、社團與親子團體",
+      "以安全、好理解的導覽節奏進行"
+    ],
+    "sortOrder": 3
+  },
+  {
+    "id": "service-4",
+    "title": "團體客製導覽",
+    "subtitle": "為企業、社群、攝影團設計專屬場次。",
+    "description": "依照主題、時間、交通與參與者經驗規劃路線，兼顧鳥類觀察、影像紀錄與活動體驗。",
+    "duration": "半日或一日",
+    "price": "客製報價",
+    "image": "https://picsum.photos/seed/bird-service-4/1200/820",
+    "features": [
+      "可指定主題或地點",
+      "可加入攝影與導覽成果整理",
+      "適合品牌活動與社群聚會"
+    ],
+    "sortOrder": 4
+  }
+]

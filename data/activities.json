@@ -1,0 +1,110 @@
+[
+  {
+    "id": "activity-1",
+    "title": "大安森林公園晨光賞鳥",
+    "date": "2026-05-03",
+    "time": "07:00 - 09:00",
+    "location": "台北市大安森林公園",
+    "meetingPoint": "大安森林公園捷運站 5 號出口",
+    "duration": "2 小時",
+    "price": "成人 NT$600 / 兒童 NT$300",
+    "description": "從步道、草地到生態池，帶大家認識城市裡最容易相遇的鳥類，並練習用棲地、姿態與聲音做初步辨識。",
+    "schedule": [
+      "07:00 集合與望遠鏡使用說明",
+      "07:15 生態池與草地鳥類觀察",
+      "08:20 常見鳥種辨識與拍攝角度分享",
+      "09:00 活動回顧與解散"
+    ],
+    "highlights": [
+      "認識都市公園常見鳥種",
+      "練習安全觀察距離",
+      "帶回一份自己的鳥類觀察清單"
+    ],
+    "notices": [
+      "請穿著好走的鞋子並自備飲水。",
+      "若遇大雨或颱風，將於活動前通知延期或取消。",
+      "活動照片可能作為紀錄使用，不想露臉可於報名備註告知。"
+    ],
+    "image": "https://picsum.photos/seed/bird-activity-1/1200/820",
+    "images": [
+      "https://picsum.photos/seed/bird-activity-1/1200/820",
+      "https://picsum.photos/seed/bird-activity-1b/1200/820",
+      "https://picsum.photos/seed/bird-activity-1c/1200/820"
+    ],
+    "registerUrl": "/activities/activity-1",
+    "createdAt": "2026-04-16T08:00:00.000Z",
+    "updatedAt": "2026-04-16T08:00:00.000Z"
+  },
+  {
+    "id": "activity-2",
+    "title": "黑冠麻鷺探險家",
+    "date": "2026-06-29",
+    "time": "14:30 - 17:00",
+    "location": "劍潭捷運站周邊都市綠地",
+    "meetingPoint": "劍潭捷運站 1 號出口",
+    "duration": "2.5 小時",
+    "price": "單人票 NT$600",
+    "description": "帶領大家認識賞鳥以及黑冠麻鷺，從城市綠地的環境開始，觀察牠們的覓食方式、移動路線與適合保持的觀察距離。",
+    "schedule": [
+      "14:30 劍潭捷運站 1 號出口集合",
+      "14:45 賞鳥基礎與黑冠麻鷺介紹",
+      "15:20 都市綠地導覽與現地觀察",
+      "16:40 活動回顧、提問與解散"
+    ],
+    "highlights": [
+      "認識黑冠麻鷺的棲地與行為",
+      "學會不干擾鳥類的近距離觀察方式",
+      "適合親子、初學者與鳥類攝影入門"
+    ],
+    "notices": [
+      "活動以步行導覽為主，請準備防曬、飲水與好走的鞋。",
+      "付款資訊將於報名後由導覽人員確認。",
+      "若天候不佳，將於活動前通知調整。"
+    ],
+    "image": "https://picsum.photos/seed/bird-activity-2/1200/820",
+    "images": [
+      "https://picsum.photos/seed/bird-activity-2/1200/820",
+      "https://picsum.photos/seed/bird-activity-2b/1200/820",
+      "https://picsum.photos/seed/bird-activity-2c/1200/820"
+    ],
+    "registerUrl": "/activities/activity-2",
+    "createdAt": "2026-04-17T07:00:00.000Z",
+    "updatedAt": "2026-04-17T07:00:00.000Z"
+  },
+  {
+    "id": "activity-3",
+    "title": "雨天城市鳥類觀察課",
+    "date": "2026-05-17",
+    "time": "09:00 - 11:30",
+    "location": "新北市板橋都會綠地",
+    "meetingPoint": "板橋車站北 2 門集合",
+    "duration": "2.5 小時",
+    "price": "NT$800 / 人",
+    "description": "如果遇到小雨，就把節奏放慢，學習在濕潤環境中辨認樹冠層與地面的活動線索。",
+    "schedule": [
+      "09:00 集合與雨天觀察安全說明",
+      "09:20 樹冠層與地面鳥類活動觀察",
+      "10:30 雨天鳥類行為與痕跡判讀",
+      "11:30 活動回顧與解散"
+    ],
+    "highlights": [
+      "理解雨天與晴天鳥類活動差異",
+      "練習用痕跡與聲音找到鳥",
+      "適合想提升觀察敏感度的人"
+    ],
+    "notices": [
+      "小雨照常，大雨延期。",
+      "請攜帶雨具，避免使用會遮擋視線的大型傘具。",
+      "器材請自行做好防水。"
+    ],
+    "image": "https://picsum.photos/seed/bird-activity-3/1200/820",
+    "images": [
+      "https://picsum.photos/seed/bird-activity-3/1200/820",
+      "https://picsum.photos/seed/bird-activity-3b/1200/820",
+      "https://picsum.photos/seed/bird-activity-3c/1200/820"
+    ],
+    "registerUrl": "/activities/activity-3",
+    "createdAt": "2026-04-19T04:00:00.000Z",
+    "updatedAt": "2026-04-19T04:00:00.000Z"
+  }
+]

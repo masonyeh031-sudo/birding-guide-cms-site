@@ -1,0 +1,38 @@
+[
+  {
+    "id": "portfolio-1",
+    "title": "都市公園觀察教案",
+    "image": "https://picsum.photos/seed/bird-portfolio-1/1200/820",
+    "images": [
+      "https://picsum.photos/seed/bird-portfolio-1/1200/820",
+      "https://picsum.photos/seed/bird-portfolio-1b/1200/820",
+      "https://picsum.photos/seed/bird-portfolio-1c/1200/820"
+    ],
+    "description": "整理給學校與親子團體使用的入門型觀察教材，包含棲地辨識與記錄卡。",
+    "link": "#"
+  },
+  {
+    "id": "portfolio-2",
+    "title": "主題導覽攝影紀錄",
+    "image": "https://picsum.photos/seed/bird-portfolio-2/1200/820",
+    "images": [
+      "https://picsum.photos/seed/bird-portfolio-2/1200/820",
+      "https://picsum.photos/seed/bird-portfolio-2b/1200/820",
+      "https://picsum.photos/seed/bird-portfolio-2c/1200/820"
+    ],
+    "description": "活動紀錄、講解現場與觀察路線整理，讓第一次接觸的朋友能快速理解導覽節奏。",
+    "link": "#"
+  },
+  {
+    "id": "portfolio-3",
+    "title": "城市賞鳥短影片",
+    "image": "https://picsum.photos/seed/bird-portfolio-3/1200/820",
+    "images": [
+      "https://picsum.photos/seed/bird-portfolio-3/1200/820",
+      "https://picsum.photos/seed/bird-portfolio-3b/1200/820",
+      "https://picsum.photos/seed/bird-portfolio-3c/1200/820"
+    ],
+    "description": "以短影音方式介紹常見鳥類、觀察位置與都市環境中的棲地故事。",
+    "link": "#"
+  }
+]

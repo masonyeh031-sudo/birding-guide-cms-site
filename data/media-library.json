@@ -1,0 +1,14 @@
+[
+  {
+    "id": "media-1",
+    "url": "https://picsum.photos/seed/bird-media-1/1200/800",
+    "label": "預設 Hero 圖片",
+    "createdAt": "2026-04-20T06:00:00.000Z"
+  },
+  {
+    "id": "media-2",
+    "url": "https://picsum.photos/seed/bird-media-2/1200/800",
+    "label": "預設 活動照片",
+    "createdAt": "2026-04-20T06:00:00.000Z"
+  }
+]
