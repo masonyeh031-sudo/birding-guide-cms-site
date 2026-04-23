@@ -1,5 +1,47 @@
 [
   {
+    "id": "guandu-birding-2025-01-18",
+    "title": "關渡自然公園都市鳥類導覽活動",
+    "date": "2025-01-18",
+    "time": "14:00 - 18:30",
+    "location": "關渡自然公園",
+    "meetingPoint": "下午 14:00 於關渡自然公園集合",
+    "duration": "4.5 小時",
+    "price": "成人 200 元/每人；小孩免費（需要一位家長同行）",
+    "description": "1/18 即將帶大家導覽關渡自然公園的鳥類，地點位於捷運關渡站。跟大家介紹台灣的冬候鳥，與公園常見的鳥類。另外還會教大家如何看圖鑑的技巧和認識賞鳥小屋。",
+    "schedule": [
+      "14:00 於關渡自然公園集合",
+      "14:00~14:30 跟大家介紹關渡自然公園常見的鳥種",
+      "14:30~16:30 賞鳥小屋導覽、自然中心介紹",
+      "16:30~17:00 復盤（學習單）與發放有獎徵答獎品",
+      "17:00~18:30 關渡自然公園解散（如果臨時有事，提早走沒有關係）"
+    ],
+    "highlights": [
+      "學習如何看鳥類圖鑑（新）",
+      "認識賞鳥小屋（新）",
+      "常見相似鳥類差異",
+      "認識關渡自然公園的鳥類生態",
+      "認識鳥的行為與習性",
+      "認識台灣冬候鳥"
+    ],
+    "notices": [
+      "因為水鳥的知識過於複雜，所以如果我有回答不出來的問題，回去才會跟您解答，敬請見諒。",
+      "當天的活動照片會分享給大家，然後會上傳到我的社群媒體，如果不想露臉的話，請事先告知。",
+      "如果當天天氣不佳，如：下大雨、颱風等自然災害，將會取消並補辦一次。",
+      "喜歡的照片可以自行下載，要分享的請在社群媒體輸入 ＠觀鳥人～"
+    ],
+    "image": "https://static.wixstatic.com/media/017155_3c9b61eeb30b4ca993ff5419cb13e6d7~mv2.jpg",
+    "images": [
+      "https://static.wixstatic.com/media/017155_3c9b61eeb30b4ca993ff5419cb13e6d7~mv2.jpg",
+      "https://static.wixstatic.com/media/017155_604a352b575745579ea6ce30f08fb666~mv2.jpg",
+      "https://static.wixstatic.com/media/017155_cd1c65a24c7f427daebff27abcf4a527~mv2.jpg",
+      "https://static.wixstatic.com/media/017155_8d19a63bc35c492ba5cfb87e86bbc54a~mv2.jpg"
+    ],
+    "registerUrl": "/activities/guandu-birding-2025-01-18",
+    "createdAt": "2025-01-01T00:00:00.000Z",
+    "updatedAt": "2026-04-23T00:00:00.000Z"
+  },
+  {
     "id": "activity-1",
     "title": "大安森林公園晨光賞鳥",
     "date": "2026-05-03",
@@ -25,11 +67,12 @@
       "若遇大雨或颱風，將於活動前通知延期或取消。",
       "活動照片可能作為紀錄使用，不想露臉可於報名備註告知。"
     ],
-    "image": "https://picsum.photos/seed/bird-activity-1/1200/820",
+    "image": "https://static.wixstatic.com/media/017155_a4099c8bdb614218ab13a92307cef7f6~mv2.jpg",
     "images": [
-      "https://picsum.photos/seed/bird-activity-1/1200/820",
-      "https://picsum.photos/seed/bird-activity-1b/1200/820",
-      "https://picsum.photos/seed/bird-activity-1c/1200/820"
+      "https://static.wixstatic.com/media/017155_a4099c8bdb614218ab13a92307cef7f6~mv2.jpg",
+      "https://static.wixstatic.com/media/017155_a904c2ab6d5443e6814c002018a6a562~mv2.jpg",
+      "https://static.wixstatic.com/media/017155_925fb52538bf45e88b2c9a02f1f44bcb~mv2.jpg",
+      "https://static.wixstatic.com/media/017155_604a352b575745579ea6ce30f08fb666~mv2.jpg"
     ],
     "registerUrl": "/activities/activity-1",
     "createdAt": "2026-04-16T08:00:00.000Z",
@@ -61,11 +104,12 @@
       "付款資訊將於報名後由導覽人員確認。",
       "若天候不佳，將於活動前通知調整。"
     ],
-    "image": "https://picsum.photos/seed/bird-activity-2/1200/820",
+    "image": "https://static.wixstatic.com/media/017155_196f50f62746449ea2ac7774943f77a5~mv2.jpg",
     "images": [
-      "https://picsum.photos/seed/bird-activity-2/1200/820",
-      "https://picsum.photos/seed/bird-activity-2b/1200/820",
-      "https://picsum.photos/seed/bird-activity-2c/1200/820"
+      "https://static.wixstatic.com/media/017155_196f50f62746449ea2ac7774943f77a5~mv2.jpg",
+      "https://static.wixstatic.com/media/017155_58ec438ec2584e069a52d0d5554a9d68~mv2.jpg",
+      "https://static.wixstatic.com/media/017155_f0802c5c02bf4ecab497bc51d17adcf1~mv2.jpg",
+      "https://static.wixstatic.com/media/017155_b0c7d18bd45b4961987bef38dbd348b8~mv2.jpg"
     ],
     "registerUrl": "/activities/activity-2",
     "createdAt": "2026-04-17T07:00:00.000Z",
@@ -97,11 +141,11 @@
       "請攜帶雨具，避免使用會遮擋視線的大型傘具。",
       "器材請自行做好防水。"
     ],
-    "image": "https://picsum.photos/seed/bird-activity-3/1200/820",
+    "image": "https://static.wixstatic.com/media/017155_0d090b76b42f4859b775e2612fd892cc~mv2.jpg",
     "images": [
-      "https://picsum.photos/seed/bird-activity-3/1200/820",
-      "https://picsum.photos/seed/bird-activity-3b/1200/820",
-      "https://picsum.photos/seed/bird-activity-3c/1200/820"
+      "https://static.wixstatic.com/media/017155_0d090b76b42f4859b775e2612fd892cc~mv2.jpg",
+      "https://static.wixstatic.com/media/017155_9e57948dcc7f4787bf250513038c35c5~mv2.jpg",
+      "https://static.wixstatic.com/media/017155_b0c7d18bd45b4961987bef38dbd348b8~mv2.jpg"
     ],
     "registerUrl": "/activities/activity-3",
     "createdAt": "2026-04-19T04:00:00.000Z",

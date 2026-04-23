@@ -1,49 +1,49 @@
 [
   {
     "id": "gallery-1",
-    "image": "https://picsum.photos/seed/bird-gallery-1/900/1200",
+    "image": "https://static.wixstatic.com/media/017155_3911f89a8e3846449a66de82417002c6~mv2.jpg",
     "caption": "晨間帶隊進入公園樹蔭，先聽聲音再找鳥。",
     "sortOrder": 1
   },
   {
     "id": "gallery-2",
-    "image": "https://picsum.photos/seed/bird-gallery-2/900/700",
+    "image": "https://static.wixstatic.com/media/017155_64583eb3f6334f7bbfbdef9e0f50090d~mv2.jpg",
     "caption": "介紹鳥巢位置時，先從棲地與距離感開始。",
     "sortOrder": 2
   },
   {
     "id": "gallery-3",
-    "image": "https://picsum.photos/seed/bird-gallery-3/900/1100",
+    "image": "https://static.wixstatic.com/media/017155_604a352b575745579ea6ce30f08fb666~mv2.jpg",
     "caption": "在水域邊緣觀察停棲與覓食路徑。",
     "sortOrder": 3
   },
   {
     "id": "gallery-4",
-    "image": "https://picsum.photos/seed/bird-gallery-4/900/760",
+    "image": "https://static.wixstatic.com/media/017155_8d19a63bc35c492ba5cfb87e86bbc54a~mv2.jpg",
     "caption": "導覽中途停下來，讓大家整理今天看到的線索。",
     "sortOrder": 4
   },
   {
     "id": "gallery-5",
-    "image": "https://picsum.photos/seed/bird-gallery-5/900/1000",
+    "image": "https://static.wixstatic.com/media/017155_7c8b0326097948a4a36415485e86d9ac~mv2.jpg",
     "caption": "合照前再回顧一次今天出現的鳥種。",
     "sortOrder": 5
   },
   {
     "id": "gallery-6",
-    "image": "https://picsum.photos/seed/bird-gallery-6/900/720",
+    "image": "https://static.wixstatic.com/media/017155_196f50f62746449ea2ac7774943f77a5~mv2.jpg",
     "caption": "夜間觀察保持低干擾，慢慢走、慢慢看。",
     "sortOrder": 6
   },
   {
     "id": "gallery-7",
-    "image": "https://picsum.photos/seed/bird-gallery-7/900/1180",
+    "image": "https://static.wixstatic.com/media/017155_0d090b76b42f4859b775e2612fd892cc~mv2.jpg",
     "caption": "雨天觀察課，把視線放回濕地與樹冠層。",
     "sortOrder": 7
   },
   {
     "id": "gallery-8",
-    "image": "https://picsum.photos/seed/bird-gallery-8/900/780",
+    "image": "https://static.wixstatic.com/media/017155_fe8ebdceba964c1888260866fc482d2c~mv2.jpg",
     "caption": "在導覽最後一起分享今天最難忘的一幕。",
     "sortOrder": 8
   }

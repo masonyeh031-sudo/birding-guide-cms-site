@@ -1,11 +1,11 @@
 {
   "id": "site-settings-1",
-  "siteName": "賞鳥助手",
+  "siteName": "鳥類導航：引導您進入鳥類的奇妙世界",
   "logo": "/guaniaoren-logo.png",
-  "tagline": "Urban Birding Guide",
-  "seoTitle": "賞鳥助手 | 都市賞鳥導覽個人品牌網站",
-  "seoDescription": "結合都市賞鳥導覽、鳥類教育、活動紀錄與作品展示的個人品牌官網。",
-  "contactEmail": "hello@birdingguide.tw",
+  "tagline": "改變你對鳥類的看法與想像",
+  "seoTitle": "鳥類導航：引導您進入鳥類的奇妙世界",
+  "seoDescription": "鳥類導航帶你進入鳥類的奇妙世界，整理都市鳥類導覽活動、鳥種資料、活動照片與報名資訊。",
+  "contactEmail": "masonyeh031@gmail.com",
   "socialLinks": [
     {
       "label": "Instagram",
@@ -20,8 +20,8 @@
       "url": "https://youtube.com"
     }
   ],
-  "footerText": "把每一次抬頭，都變成與自然重新認識的開始。",
-  "footerBottomText": "城市裡的鳥，也值得被好好認識。",
+  "footerText": "引導您進入鳥類的奇妙世界。",
+  "footerBottomText": "©2024 鳥類導航 版權所有。",
   "pageContent": {
     "journal": {
       "eyebrow": "導覽日記",

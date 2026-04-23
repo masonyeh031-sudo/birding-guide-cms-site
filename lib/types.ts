@@ -41,6 +41,23 @@ export interface ActivityRecord {
   updatedAt: string;
 }
 
+export interface BirdRecord {
+  id: string;
+  name: string;
+  englishName: string;
+  image: string;
+  galleryImages: string[];
+  description: string;
+  detailedDescription: string;
+  habitat: string[];
+  category: string;
+  observationPoint: string;
+  sourceText: string;
+  tags: string[];
+  createdAt: string;
+  updatedAt: string;
+}
+
 export type RegistrationStatus = "new" | "contacted" | "confirmed" | "cancelled";
 
 export interface RegistrationRecord {

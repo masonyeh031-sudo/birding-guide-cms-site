@@ -4,6 +4,7 @@ import path from "path";
 import type {
   ActivityRecord,
   AdminRecord,
+  BirdRecord,
   ContactMessageRecord,
   GalleryItemRecord,
   HomepageSectionKey,
@@ -58,6 +59,15 @@ export async function getActivities() {
 
 export async function saveActivities(activities: ActivityRecord[]) {
   return writeJsonFile("activities.json", activities);
+}
+
+export async function getBirds() {
+  const birds = await readJsonFile<BirdRecord[]>("birds.json");
+  return birds.sort((left, right) => left.name.localeCompare(right.name, "zh-Hant"));
+}
+
+export async function saveBirds(birds: BirdRecord[]) {
+  return writeJsonFile("birds.json", birds);
 }
 
 export async function getRegistrations() {

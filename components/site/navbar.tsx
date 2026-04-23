@@ -7,7 +7,7 @@ const navItems = [
   { label: "導覽日記", href: "/journal" },
   { label: "都會公園導覽活動", href: "/activities" },
   { label: "服務項目", href: "/services" },
-  { label: "作品集", href: "/portfolio" },
+  { label: "看更多觀鳥人作品", href: "/portfolio" },
   { label: "聯絡我", href: "/contact" },
 ];
 

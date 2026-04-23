@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  color-scheme: dark;
+  color-scheme: light;
 }
 
 * {
@@ -17,8 +17,8 @@ html {
 body {
   margin: 0;
   min-width: 320px;
-  background: #05070b;
-  color: #f4f7fb;
+  background: #f7fbf8;
+  color: #1f2a26;
   font-family:
     "Noto Sans TC",
     "PingFang TC",

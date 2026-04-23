@@ -1,0 +1,443 @@
+[
+  {
+    "id": "bird-malayan-night-heron",
+    "name": "黑冠麻鷺",
+    "englishName": "Malayan Night Heron",
+    "image": "https://static.wixstatic.com/media/017155_196f50f62746449ea2ac7774943f77a5~mv2.jpg",
+    "galleryImages": [
+      "https://static.wixstatic.com/media/017155_196f50f62746449ea2ac7774943f77a5~mv2.jpg",
+      "https://static.wixstatic.com/media/017155_58ec438ec2584e069a52d0d5554a9d68~mv2.jpg",
+      "https://static.wixstatic.com/media/017155_f0802c5c02bf4ecab497bc51d17adcf1~mv2.jpg",
+      "https://static.wixstatic.com/media/017155_fe8ebdceba964c1888260866fc482d2c~mv2.jpg"
+    ],
+    "description": "在晚上的時候，在草地上用筆記本觀察黑冠麻鷺擺動脖子的次數。",
+    "detailedDescription": "原站以黑冠麻鷺探險家作為導覽系列之一，紀錄雨天、夜晚與公園草地中的黑冠麻鷺行為，也包含用相機錄影與筆記本觀察擺動脖子的次數。",
+    "habitat": ["都市", "草地", "森林"],
+    "category": "行為觀察",
+    "observationPoint": "中正紀念公園、都市公園草地",
+    "sourceText": "在中正紀念公園觀察黑冠麻鷺行為的影像。",
+    "tags": ["黑冠麻鷺探險家", "都市鳥類", "行為"],
+    "createdAt": "2026-04-23T00:00:00.000Z",
+    "updatedAt": "2026-04-23T00:00:00.000Z"
+  },
+  {
+    "id": "bird-whistling-green-pigeon",
+    "name": "綠簑鴿",
+    "englishName": "Whistling Green Pigeon",
+    "image": "https://static.wixstatic.com/media/017155_64583eb3f6334f7bbfbdef9e0f50090d~mv2.jpg",
+    "galleryImages": [
+      "https://static.wixstatic.com/media/017155_64583eb3f6334f7bbfbdef9e0f50090d~mv2.jpg",
+      "https://static.wixstatic.com/media/017155_e9ca2f01033a421e8f3d7be7d4fef874~mv2.jpg"
+    ],
+    "description": "正在帶領大家觀賞綠簑鴿的鳥巢。",
+    "detailedDescription": "木柵動物園鳥園導覽中，綠簑鴿被放在鳥巢觀察脈絡裡，透過現場導覽讓參與者理解鳥園環境與鳥種。",
+    "habitat": ["森林", "都市"],
+    "category": "鳥巢觀察",
+    "observationPoint": "木柵動物園鳥園",
+    "sourceText": "正在帶領大家觀賞綠簑鴿的鳥巢。",
+    "tags": ["綠簑鴿", "鳥園", "鳥巢"],
+    "createdAt": "2026-04-23T00:00:00.000Z",
+    "updatedAt": "2026-04-23T00:00:00.000Z"
+  },
+  {
+    "id": "bird-magpie",
+    "name": "喜鵲",
+    "englishName": "Oriental Magpie",
+    "image": "https://static.wixstatic.com/media/017155_a4099c8bdb614218ab13a92307cef7f6~mv2.jpg",
+    "galleryImages": [
+      "https://static.wixstatic.com/media/017155_a4099c8bdb614218ab13a92307cef7f6~mv2.jpg",
+      "https://static.wixstatic.com/media/017155_a904c2ab6d5443e6814c002018a6a562~mv2.jpg"
+    ],
+    "description": "都市常見鳥種認識中提到的鳥類，適合用看板和照片進行辨識練習。",
+    "detailedDescription": "原站活動流程第一步是常見鳥種認識，會運用看板和照片介紹都市常見的鳥類，例如喜鵲和五色鳥，讓參與者外出散心時可以自己辨識鳥類。",
+    "habitat": ["都市", "草地"],
+    "category": "都市常見鳥",
+    "observationPoint": "大安森林公園、青年公園",
+    "sourceText": "運用看板和照片的方式，與大家介紹在都市常見的鳥類，如：喜鵲和五色鳥。",
+    "tags": ["都市常見鳥", "看板", "辨識"],
+    "createdAt": "2026-04-23T00:00:00.000Z",
+    "updatedAt": "2026-04-23T00:00:00.000Z"
+  },
+  {
+    "id": "bird-taiwan-barbet",
+    "name": "五色鳥",
+    "englishName": "Taiwan Barbet",
+    "image": "https://static.wixstatic.com/media/017155_a904c2ab6d5443e6814c002018a6a562~mv2.jpg",
+    "galleryImages": [
+      "https://static.wixstatic.com/media/017155_a904c2ab6d5443e6814c002018a6a562~mv2.jpg",
+      "https://static.wixstatic.com/media/017155_a4099c8bdb614218ab13a92307cef7f6~mv2.jpg"
+    ],
+    "description": "都市常見鳥種認識中提到的鳥類，透過照片和公園告示牌練習辨識。",
+    "detailedDescription": "五色鳥出現在都市常見鳥種教學段落中，原站以大安森林公園常見鳥類介紹作為導覽素材。",
+    "habitat": ["都市", "森林"],
+    "category": "都市常見鳥",
+    "observationPoint": "大安森林公園",
+    "sourceText": "我用照片的方式，跟大家介紹大安森林公園常見的鳥類。",
+    "tags": ["都市常見鳥", "公園", "辨識"],
+    "createdAt": "2026-04-23T00:00:00.000Z",
+    "updatedAt": "2026-04-23T00:00:00.000Z"
+  },
+  {
+    "id": "bird-common-myna",
+    "name": "家八哥",
+    "englishName": "Common Myna",
+    "image": "https://static.wixstatic.com/media/017155_1a7a03ec00cd4342ad272d1bd0ee8fd4~mv2.jpg",
+    "galleryImages": [
+      "https://static.wixstatic.com/media/017155_1a7a03ec00cd4342ad272d1bd0ee8fd4~mv2.jpg"
+    ],
+    "description": "相似鳥種辨識單元中的代表鳥種，會和白尾八哥、台灣八哥一起比較。",
+    "detailedDescription": "原站活動流程第二步介紹如何辨識相似鳥種，包含家八哥、白尾八哥和台灣八哥的特徵差異。",
+    "habitat": ["都市", "草地"],
+    "category": "相似鳥種",
+    "observationPoint": "都市公園",
+    "sourceText": "我正在用看板來跟大家介紹家八哥、白尾八哥和台灣八哥的特徵差異。",
+    "tags": ["八哥", "相似鳥種", "辨識"],
+    "createdAt": "2026-04-23T00:00:00.000Z",
+    "updatedAt": "2026-04-23T00:00:00.000Z"
+  },
+  {
+    "id": "bird-javan-myna",
+    "name": "白尾八哥",
+    "englishName": "Javan Myna",
+    "image": "https://static.wixstatic.com/media/017155_1a7a03ec00cd4342ad272d1bd0ee8fd4~mv2.jpg",
+    "galleryImages": [
+      "https://static.wixstatic.com/media/017155_1a7a03ec00cd4342ad272d1bd0ee8fd4~mv2.jpg"
+    ],
+    "description": "相似鳥種辨識單元中的代表鳥種，和家八哥、台灣八哥一起比較。",
+    "detailedDescription": "白尾八哥出現在原站的相似鳥種差異教學，用來幫助參與者看懂都市常見八哥類的外觀差異。",
+    "habitat": ["都市", "草地"],
+    "category": "相似鳥種",
+    "observationPoint": "都市公園",
+    "sourceText": "介紹在都市常見的相似鳥種，如：家八哥和白尾八哥。",
+    "tags": ["八哥", "相似鳥種", "辨識"],
+    "createdAt": "2026-04-23T00:00:00.000Z",
+    "updatedAt": "2026-04-23T00:00:00.000Z"
+  },
+  {
+    "id": "bird-crested-myna",
+    "name": "台灣八哥",
+    "englishName": "Crested Myna",
+    "image": "https://static.wixstatic.com/media/017155_1a7a03ec00cd4342ad272d1bd0ee8fd4~mv2.jpg",
+    "galleryImages": [
+      "https://static.wixstatic.com/media/017155_1a7a03ec00cd4342ad272d1bd0ee8fd4~mv2.jpg"
+    ],
+    "description": "相似鳥種辨識單元中的鳥種，透過看板介紹特徵差異。",
+    "detailedDescription": "台灣八哥被放在八哥類辨識脈絡中，與家八哥、白尾八哥一起作為都市公園導覽的比較案例。",
+    "habitat": ["都市", "草地"],
+    "category": "相似鳥種",
+    "observationPoint": "都市公園",
+    "sourceText": "家八哥、白尾八哥和台灣八哥的特徵差異。",
+    "tags": ["八哥", "相似鳥種", "辨識"],
+    "createdAt": "2026-04-23T00:00:00.000Z",
+    "updatedAt": "2026-04-23T00:00:00.000Z"
+  },
+  {
+    "id": "bird-great-egret",
+    "name": "大白鷺",
+    "englishName": "Great Egret",
+    "image": "https://static.wixstatic.com/media/017155_cd1c65a24c7f427daebff27abcf4a527~mv2.jpg",
+    "galleryImages": [
+      "https://static.wixstatic.com/media/017155_cd1c65a24c7f427daebff27abcf4a527~mv2.jpg",
+      "https://static.wixstatic.com/media/017155_604a352b575745579ea6ce30f08fb666~mv2.jpg"
+    ],
+    "description": "相似鷺科鳥類辨識單元中的鳥種，用來比較繁殖期顏色差異。",
+    "detailedDescription": "原站提到會用圖片請大家找小白鷺、黃頭鷺、中白鷺和大白鷺有無繁殖期的顏色差異。",
+    "habitat": ["濕地", "都市"],
+    "category": "鷺科水鳥",
+    "observationPoint": "大安森林公園湖邊、關渡自然公園",
+    "sourceText": "找找看小白鷺、黃頭鷺、中白鷺和大白鷺有無繁殖期的顏色差異。",
+    "tags": ["鷺科", "相似鳥種", "繁殖羽"],
+    "createdAt": "2026-04-23T00:00:00.000Z",
+    "updatedAt": "2026-04-23T00:00:00.000Z"
+  },
+  {
+    "id": "bird-intermediate-egret",
+    "name": "中白鷺",
+    "englishName": "Intermediate Egret",
+    "image": "https://static.wixstatic.com/media/017155_cd1c65a24c7f427daebff27abcf4a527~mv2.jpg",
+    "galleryImages": [
+      "https://static.wixstatic.com/media/017155_cd1c65a24c7f427daebff27abcf4a527~mv2.jpg"
+    ],
+    "description": "相似鷺科鳥類辨識單元中的鳥種，與大白鷺、小白鷺一起比較。",
+    "detailedDescription": "中白鷺出現在原站的大白鷺和中白鷺差異，以及鷺科繁殖期顏色差異的教學素材中。",
+    "habitat": ["濕地", "都市"],
+    "category": "鷺科水鳥",
+    "observationPoint": "大安森林公園湖邊、關渡自然公園",
+    "sourceText": "大白鷺和中白鷺的差異。",
+    "tags": ["鷺科", "相似鳥種", "辨識"],
+    "createdAt": "2026-04-23T00:00:00.000Z",
+    "updatedAt": "2026-04-23T00:00:00.000Z"
+  },
+  {
+    "id": "bird-little-egret",
+    "name": "小白鷺",
+    "englishName": "Little Egret",
+    "image": "https://static.wixstatic.com/media/017155_604a352b575745579ea6ce30f08fb666~mv2.jpg",
+    "galleryImages": [
+      "https://static.wixstatic.com/media/017155_604a352b575745579ea6ce30f08fb666~mv2.jpg",
+      "https://static.wixstatic.com/media/017155_cd1c65a24c7f427daebff27abcf4a527~mv2.jpg"
+    ],
+    "description": "在大安森林公園湖邊介紹的鳥種之一，也出現在關渡鳥種清單。",
+    "detailedDescription": "原站紀錄在大安森林公園湖邊跟大家介紹黃頭鷺、小白鷺和夜鷺，也在關渡活動鳥種中列出小白鷺。",
+    "habitat": ["濕地", "都市"],
+    "category": "鷺科水鳥",
+    "observationPoint": "大安森林公園湖邊、關渡自然公園",
+    "sourceText": "在大安森林公園的湖邊跟大家介紹黃頭鷺、小白鷺和夜鷺。",
+    "tags": ["鷺科", "湖邊", "關渡"],
+    "createdAt": "2026-04-23T00:00:00.000Z",
+    "updatedAt": "2026-04-23T00:00:00.000Z"
+  },
+  {
+    "id": "bird-cattle-egret",
+    "name": "黃頭鷺",
+    "englishName": "Cattle Egret",
+    "image": "https://static.wixstatic.com/media/017155_925fb52538bf45e88b2c9a02f1f44bcb~mv2.jpg",
+    "galleryImages": [
+      "https://static.wixstatic.com/media/017155_925fb52538bf45e88b2c9a02f1f44bcb~mv2.jpg",
+      "https://static.wixstatic.com/media/017155_604a352b575745579ea6ce30f08fb666~mv2.jpg"
+    ],
+    "description": "用相機方式展示正在餵食行為的鳥種，也是湖邊導覽介紹鳥種。",
+    "detailedDescription": "原站圖片說明提到用相機的方式給大家看黃頭鷺正在餵食的行為，並在大安森林公園湖邊介紹黃頭鷺、小白鷺和夜鷺。",
+    "habitat": ["濕地", "草地", "都市"],
+    "category": "鷺科水鳥",
+    "observationPoint": "大安森林公園湖邊",
+    "sourceText": "我用相機的方式給大家看黃頭鷺正在餵食的行為。",
+    "tags": ["鷺科", "餵食", "導覽"],
+    "createdAt": "2026-04-23T00:00:00.000Z",
+    "updatedAt": "2026-04-23T00:00:00.000Z"
+  },
+  {
+    "id": "bird-black-crowned-night-heron",
+    "name": "夜鷺",
+    "englishName": "Black-crowned Night Heron",
+    "image": "https://static.wixstatic.com/media/017155_604a352b575745579ea6ce30f08fb666~mv2.jpg",
+    "galleryImages": [
+      "https://static.wixstatic.com/media/017155_604a352b575745579ea6ce30f08fb666~mv2.jpg"
+    ],
+    "description": "大安森林公園湖邊導覽介紹的鳥種之一，也列在關渡活動鳥種中。",
+    "detailedDescription": "夜鷺同時出現在大安森林公園湖邊介紹文字與關渡自然公園都市鳥類導覽活動鳥種清單。",
+    "habitat": ["濕地", "都市"],
+    "category": "鷺科水鳥",
+    "observationPoint": "大安森林公園湖邊、關渡自然公園",
+    "sourceText": "黃頭鷺、小白鷺和夜鷺。",
+    "tags": ["鷺科", "湖邊", "關渡"],
+    "createdAt": "2026-04-23T00:00:00.000Z",
+    "updatedAt": "2026-04-23T00:00:00.000Z"
+  },
+  {
+    "id": "bird-grey-heron",
+    "name": "蒼鷺",
+    "englishName": "Grey Heron",
+    "image": "https://static.wixstatic.com/media/017155_3c9b61eeb30b4ca993ff5419cb13e6d7~mv2.jpg",
+    "galleryImages": [
+      "https://static.wixstatic.com/media/017155_3c9b61eeb30b4ca993ff5419cb13e6d7~mv2.jpg"
+    ],
+    "description": "關渡自然公園都市鳥類導覽活動列出的鳥種之一。",
+    "detailedDescription": "原站報名頁的鳥種清單列出蒼鷺，活動重點是介紹台灣冬候鳥與公園常見鳥類。",
+    "habitat": ["濕地"],
+    "category": "關渡冬候鳥",
+    "observationPoint": "關渡自然公園",
+    "sourceText": "大白鷺、小白鷺、黃頭鷺、蒼鷺、夜鷺。",
+    "tags": ["關渡", "冬候鳥", "濕地"],
+    "createdAt": "2026-04-23T00:00:00.000Z",
+    "updatedAt": "2026-04-23T00:00:00.000Z"
+  },
+  {
+    "id": "bird-common-moorhen",
+    "name": "紅冠水雞",
+    "englishName": "Common Moorhen",
+    "image": "https://static.wixstatic.com/media/017155_3c9b61eeb30b4ca993ff5419cb13e6d7~mv2.jpg",
+    "galleryImages": [
+      "https://static.wixstatic.com/media/017155_3c9b61eeb30b4ca993ff5419cb13e6d7~mv2.jpg"
+    ],
+    "description": "關渡自然公園都市鳥類導覽活動列出的鳥種之一。",
+    "detailedDescription": "紅冠水雞被列在關渡活動鳥種清單中，和白腹秧雞、翠鳥等濕地與公園鳥種一起安排在導覽內容裡。",
+    "habitat": ["濕地", "都市"],
+    "category": "關渡冬候鳥",
+    "observationPoint": "關渡自然公園",
+    "sourceText": "紅冠水雞、白腹秧雞、翠鳥。",
+    "tags": ["關渡", "濕地", "公園"],
+    "createdAt": "2026-04-23T00:00:00.000Z",
+    "updatedAt": "2026-04-23T00:00:00.000Z"
+  },
+  {
+    "id": "bird-white-breasted-waterhen",
+    "name": "白腹秧雞",
+    "englishName": "White-breasted Waterhen",
+    "image": "https://static.wixstatic.com/media/017155_3c9b61eeb30b4ca993ff5419cb13e6d7~mv2.jpg",
+    "galleryImages": [
+      "https://static.wixstatic.com/media/017155_3c9b61eeb30b4ca993ff5419cb13e6d7~mv2.jpg"
+    ],
+    "description": "關渡自然公園都市鳥類導覽活動列出的鳥種之一。",
+    "detailedDescription": "白腹秧雞出現在關渡活動鳥種清單中，是導覽內容裡會帶大家認識的濕地與公園鳥類之一。",
+    "habitat": ["濕地", "都市"],
+    "category": "關渡冬候鳥",
+    "observationPoint": "關渡自然公園",
+    "sourceText": "紅冠水雞、白腹秧雞、翠鳥。",
+    "tags": ["關渡", "濕地", "公園"],
+    "createdAt": "2026-04-23T00:00:00.000Z",
+    "updatedAt": "2026-04-23T00:00:00.000Z"
+  },
+  {
+    "id": "bird-common-kingfisher",
+    "name": "翠鳥",
+    "englishName": "Common Kingfisher",
+    "image": "https://static.wixstatic.com/media/017155_3c9b61eeb30b4ca993ff5419cb13e6d7~mv2.jpg",
+    "galleryImages": [
+      "https://static.wixstatic.com/media/017155_3c9b61eeb30b4ca993ff5419cb13e6d7~mv2.jpg"
+    ],
+    "description": "關渡自然公園都市鳥類導覽活動列出的鳥種之一。",
+    "detailedDescription": "翠鳥被列在關渡活動鳥種清單中，活動會介紹公園常見鳥類、鳥的行為與習性。",
+    "habitat": ["濕地", "都市"],
+    "category": "關渡冬候鳥",
+    "observationPoint": "關渡自然公園",
+    "sourceText": "紅冠水雞、白腹秧雞、翠鳥。",
+    "tags": ["關渡", "濕地", "行為"],
+    "createdAt": "2026-04-23T00:00:00.000Z",
+    "updatedAt": "2026-04-23T00:00:00.000Z"
+  },
+  {
+    "id": "bird-black-winged-stilt",
+    "name": "高翹鴴",
+    "englishName": "Black-winged Stilt",
+    "image": "https://static.wixstatic.com/media/017155_3c9b61eeb30b4ca993ff5419cb13e6d7~mv2.jpg",
+    "galleryImages": [
+      "https://static.wixstatic.com/media/017155_3c9b61eeb30b4ca993ff5419cb13e6d7~mv2.jpg"
+    ],
+    "description": "關渡自然公園都市鳥類導覽活動列出的鳥種之一。",
+    "detailedDescription": "高翹鴴出現在關渡自然公園活動鳥種清單中，與青足鷸、磯鷸等鳥種一起作為濕地鳥類觀察內容。",
+    "habitat": ["濕地", "海洋"],
+    "category": "關渡冬候鳥",
+    "observationPoint": "關渡自然公園",
+    "sourceText": "高翹鴴、青足鷸、磯鷸。",
+    "tags": ["關渡", "濕地", "冬候鳥"],
+    "createdAt": "2026-04-23T00:00:00.000Z",
+    "updatedAt": "2026-04-23T00:00:00.000Z"
+  },
+  {
+    "id": "bird-common-greenshank",
+    "name": "青足鷸",
+    "englishName": "Common Greenshank",
+    "image": "https://static.wixstatic.com/media/017155_3c9b61eeb30b4ca993ff5419cb13e6d7~mv2.jpg",
+    "galleryImages": [
+      "https://static.wixstatic.com/media/017155_3c9b61eeb30b4ca993ff5419cb13e6d7~mv2.jpg"
+    ],
+    "description": "關渡自然公園都市鳥類導覽活動列出的鳥種之一。",
+    "detailedDescription": "青足鷸列在關渡活動鳥種清單中，活動學習內容包含認識台灣冬候鳥與關渡自然公園鳥類生態。",
+    "habitat": ["濕地", "海洋"],
+    "category": "關渡冬候鳥",
+    "observationPoint": "關渡自然公園",
+    "sourceText": "高翹鴴、青足鷸、磯鷸。",
+    "tags": ["關渡", "濕地", "冬候鳥"],
+    "createdAt": "2026-04-23T00:00:00.000Z",
+    "updatedAt": "2026-04-23T00:00:00.000Z"
+  },
+  {
+    "id": "bird-common-sandpiper",
+    "name": "磯鷸",
+    "englishName": "Common Sandpiper",
+    "image": "https://static.wixstatic.com/media/017155_3c9b61eeb30b4ca993ff5419cb13e6d7~mv2.jpg",
+    "galleryImages": [
+      "https://static.wixstatic.com/media/017155_3c9b61eeb30b4ca993ff5419cb13e6d7~mv2.jpg"
+    ],
+    "description": "關渡自然公園都市鳥類導覽活動列出的鳥種之一。",
+    "detailedDescription": "磯鷸列在關渡活動鳥種清單中，和高翹鴴、青足鷸一起呈現在冬候鳥與濕地鳥類學習內容裡。",
+    "habitat": ["濕地", "海洋"],
+    "category": "關渡冬候鳥",
+    "observationPoint": "關渡自然公園",
+    "sourceText": "高翹鴴、青足鷸、磯鷸。",
+    "tags": ["關渡", "濕地", "冬候鳥"],
+    "createdAt": "2026-04-23T00:00:00.000Z",
+    "updatedAt": "2026-04-23T00:00:00.000Z"
+  },
+  {
+    "id": "bird-eurasian-teal",
+    "name": "小水鴨",
+    "englishName": "Eurasian Teal",
+    "image": "https://static.wixstatic.com/media/017155_3c9b61eeb30b4ca993ff5419cb13e6d7~mv2.jpg",
+    "galleryImages": [
+      "https://static.wixstatic.com/media/017155_3c9b61eeb30b4ca993ff5419cb13e6d7~mv2.jpg"
+    ],
+    "description": "關渡自然公園都市鳥類導覽活動列出的鳥種之一。",
+    "detailedDescription": "小水鴨被列入關渡自然公園鳥種，活動學習內容包含認識台灣冬候鳥與公園鳥類生態。",
+    "habitat": ["濕地"],
+    "category": "關渡冬候鳥",
+    "observationPoint": "關渡自然公園",
+    "sourceText": "小水鴨、花嘴鴨、尖尾鴨。",
+    "tags": ["關渡", "鴨科", "冬候鳥"],
+    "createdAt": "2026-04-23T00:00:00.000Z",
+    "updatedAt": "2026-04-23T00:00:00.000Z"
+  },
+  {
+    "id": "bird-spot-billed-duck",
+    "name": "花嘴鴨",
+    "englishName": "Eastern Spot-billed Duck",
+    "image": "https://static.wixstatic.com/media/017155_3c9b61eeb30b4ca993ff5419cb13e6d7~mv2.jpg",
+    "galleryImages": [
+      "https://static.wixstatic.com/media/017155_3c9b61eeb30b4ca993ff5419cb13e6d7~mv2.jpg"
+    ],
+    "description": "關渡自然公園都市鳥類導覽活動列出的鳥種之一。",
+    "detailedDescription": "花嘴鴨列在關渡活動鳥種中，活動將帶參與者認識冬候鳥與公園常見鳥類。",
+    "habitat": ["濕地"],
+    "category": "關渡冬候鳥",
+    "observationPoint": "關渡自然公園",
+    "sourceText": "小水鴨、花嘴鴨、尖尾鴨。",
+    "tags": ["關渡", "鴨科", "冬候鳥"],
+    "createdAt": "2026-04-23T00:00:00.000Z",
+    "updatedAt": "2026-04-23T00:00:00.000Z"
+  },
+  {
+    "id": "bird-northern-pintail",
+    "name": "尖尾鴨",
+    "englishName": "Northern Pintail",
+    "image": "https://static.wixstatic.com/media/017155_3c9b61eeb30b4ca993ff5419cb13e6d7~mv2.jpg",
+    "galleryImages": [
+      "https://static.wixstatic.com/media/017155_3c9b61eeb30b4ca993ff5419cb13e6d7~mv2.jpg"
+    ],
+    "description": "關渡自然公園都市鳥類導覽活動列出的鳥種之一。",
+    "detailedDescription": "尖尾鴨列在關渡活動鳥種中，和小水鴨、花嘴鴨一起作為冬候鳥認識內容。",
+    "habitat": ["濕地"],
+    "category": "關渡冬候鳥",
+    "observationPoint": "關渡自然公園",
+    "sourceText": "小水鴨、花嘴鴨、尖尾鴨。",
+    "tags": ["關渡", "鴨科", "冬候鳥"],
+    "createdAt": "2026-04-23T00:00:00.000Z",
+    "updatedAt": "2026-04-23T00:00:00.000Z"
+  },
+  {
+    "id": "bird-eurasian-coot",
+    "name": "白冠雞",
+    "englishName": "Eurasian Coot",
+    "image": "https://static.wixstatic.com/media/017155_3c9b61eeb30b4ca993ff5419cb13e6d7~mv2.jpg",
+    "galleryImages": [
+      "https://static.wixstatic.com/media/017155_3c9b61eeb30b4ca993ff5419cb13e6d7~mv2.jpg"
+    ],
+    "description": "關渡自然公園都市鳥類導覽活動列出的鳥種之一。",
+    "detailedDescription": "白冠雞列入關渡活動鳥種清單，出現在學習台灣冬候鳥與關渡自然公園鳥類生態的脈絡裡。",
+    "habitat": ["濕地"],
+    "category": "關渡冬候鳥",
+    "observationPoint": "關渡自然公園",
+    "sourceText": "白冠雞、棕背伯勞。",
+    "tags": ["關渡", "濕地", "冬候鳥"],
+    "createdAt": "2026-04-23T00:00:00.000Z",
+    "updatedAt": "2026-04-23T00:00:00.000Z"
+  },
+  {
+    "id": "bird-brown-shrike",
+    "name": "棕背伯勞",
+    "englishName": "Brown Shrike",
+    "image": "https://static.wixstatic.com/media/017155_3c9b61eeb30b4ca993ff5419cb13e6d7~mv2.jpg",
+    "galleryImages": [
+      "https://static.wixstatic.com/media/017155_3c9b61eeb30b4ca993ff5419cb13e6d7~mv2.jpg"
+    ],
+    "description": "關渡自然公園活動頁標註為全新鳥種，從來沒有介紹過。",
+    "detailedDescription": "原站報名頁在鳥種清單最後標註棕背伯勞是全新鳥種，從來沒有介紹過，屬於這次導覽的新學習點。",
+    "habitat": ["草地", "都市"],
+    "category": "關渡冬候鳥",
+    "observationPoint": "關渡自然公園",
+    "sourceText": "棕背伯勞（全新鳥種從來沒有介紹過）。",
+    "tags": ["關渡", "新鳥種", "冬候鳥"],
+    "createdAt": "2026-04-23T00:00:00.000Z",
+    "updatedAt": "2026-04-23T00:00:00.000Z"
+  }
+]

@@ -5,7 +5,7 @@
     "title": "在城市裡，也能慢慢走進鳥類世界",
     "subtitle": "這是一個結合賞鳥導覽、鳥類教育與自然觀察的平台，陪你從熟悉的公園與步道開始，看見都市與自然交會的生命節奏。",
     "content": "帶著望遠鏡、筆記本與好奇心，從常見鳥種開始，理解棲地、行為與環境。",
-    "image": "https://picsum.photos/seed/bird-home-hero/1600/960",
+    "image": "https://static.wixstatic.com/media/017155_3c9b61eeb30b4ca993ff5419cb13e6d7~mv2.jpg",
     "extraJson": {
       "primaryButtonLabel": "查看最新活動",
       "primaryButtonHref": "#latest-news",
@@ -65,7 +65,7 @@
     "title": "關於我",
     "subtitle": "我是觀鳥人，也是城市裡帶路的賞鳥導覽者。",
     "content": "我喜歡賞鳥、登山與自然觀察，更喜歡把這些經驗整理成大家聽得懂、走得進去的導覽活動。對我來說，賞鳥不只是看見羽毛顏色，而是理解牠們如何依靠棲地、如何移動、如何在城市邊緣與我們共處。透過導覽，我希望讓更多人知道：只要願意慢下來，都市裡也有豐富而細緻的鳥類世界。",
-    "image": "https://picsum.photos/seed/bird-about-guide/1200/1400",
+    "image": "https://static.wixstatic.com/media/017155_51de381a988142c992eb6fb77255872f~mv2.jpeg",
     "extraJson": {},
     "updatedAt": "2026-04-20T06:00:00.000Z"
   },
@@ -152,22 +152,22 @@
         {
           "id": "show-1",
           "title": "集合後的雙筒望遠鏡示範",
-          "image": "https://picsum.photos/seed/bird-showcase-1/900/680"
+          "image": "https://static.wixstatic.com/media/017155_3911f89a8e3846449a66de82417002c6~mv2.jpg"
         },
         {
           "id": "show-2",
           "title": "水岸邊的停棲觀察",
-          "image": "https://picsum.photos/seed/bird-showcase-2/900/680"
+          "image": "https://static.wixstatic.com/media/017155_64583eb3f6334f7bbfbdef9e0f50090d~mv2.jpg"
         },
         {
           "id": "show-3",
           "title": "帶隊記錄常見鳥種",
-          "image": "https://picsum.photos/seed/bird-showcase-3/900/680"
+          "image": "https://static.wixstatic.com/media/017155_e9ca2f01033a421e8f3d7be7d4fef874~mv2.jpg"
         },
         {
           "id": "show-4",
           "title": "親子一起看巢位線索",
-          "image": "https://picsum.photos/seed/bird-showcase-4/900/680"
+          "image": "https://static.wixstatic.com/media/017155_8d19a63bc35c492ba5cfb87e86bbc54a~mv2.jpg"
         }
       ]
     },
@@ -186,14 +186,14 @@
           "id": "series-1",
           "title": "都會公園賞鳥活動",
           "description": "給第一次參加的朋友，從常見鳥種、棲地結構與觀察節奏開始，帶你建立自己的入門方法。",
-          "image": "https://picsum.photos/seed/bird-series-1/1200/900",
+          "image": "https://static.wixstatic.com/media/017155_7c8b0326097948a4a36415485e86d9ac~mv2.jpg",
           "href": "/activities"
         },
         {
           "id": "series-2",
           "title": "黑冠麻鷺探險家",
           "description": "以城市裡最有故事感的主角為核心，帶大家理解覓食、移動與與人共處的關係。",
-          "image": "https://picsum.photos/seed/bird-series-2/1200/900",
+          "image": "https://static.wixstatic.com/media/017155_b0c7d18bd45b4961987bef38dbd348b8~mv2.jpg",
           "href": "/activities"
         }
       ]

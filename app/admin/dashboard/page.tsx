@@ -4,6 +4,7 @@ import { AdminShell } from "@/components/admin/admin-shell";
 import { requireAdmin } from "@/lib/auth";
 import {
   getActivities,
+  getBirds,
   getGalleryItems,
   getPortfolioItems,
   getPosts,
@@ -16,10 +17,11 @@ export const dynamic = "force-dynamic";
 
 export default async function AdminDashboardPage() {
   const admin = await requireAdmin();
-  const [posts, activities, services, portfolioItems, galleryItems, registrations, subscribers] =
+  const [posts, activities, birds, services, portfolioItems, galleryItems, registrations, subscribers] =
     await Promise.all([
       getPosts(),
       getActivities(),
+      getBirds(),
       getServices(),
       getPortfolioItems(),
       getGalleryItems(),
@@ -30,6 +32,7 @@ export default async function AdminDashboardPage() {
   const stats = [
     { label: "導覽日記", value: posts.length.toString(), href: "/admin/posts" },
     { label: "活動場次", value: activities.length.toString(), href: "/admin/activities" },
+    { label: "鳥類資料", value: birds.length.toString(), href: "/admin/birds" },
     { label: "服務項目", value: services.length.toString(), href: "/admin/services" },
     { label: "活動報名", value: registrations.length.toString(), href: "/admin/registrations" },
     { label: "作品項目", value: portfolioItems.length.toString(), href: "/admin/portfolio" },
@@ -74,6 +77,9 @@ export default async function AdminDashboardPage() {
           <div className="mt-5 flex flex-wrap gap-3">
             <Link href="/admin/homepage" className="rounded-lg bg-forest-700 px-4 py-3 text-sm font-semibold text-white">
               編輯首頁
+            </Link>
+            <Link href="/admin/birds" className="rounded-lg border border-forest-300 px-4 py-3 text-sm font-semibold text-forest-800">
+              管理鳥類資料
             </Link>
             <Link href="/admin/posts" className="rounded-lg border border-forest-300 px-4 py-3 text-sm font-semibold text-forest-800">
               新增貼文

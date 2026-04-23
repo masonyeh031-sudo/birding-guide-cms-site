@@ -1,13 +1,13 @@
 [
   {
     "id": "media-1",
-    "url": "https://picsum.photos/seed/bird-media-1/1200/800",
+    "url": "https://static.wixstatic.com/media/017155_3c9b61eeb30b4ca993ff5419cb13e6d7~mv2.jpg",
     "label": "預設 Hero 圖片",
     "createdAt": "2026-04-20T06:00:00.000Z"
   },
   {
     "id": "media-2",
-    "url": "https://picsum.photos/seed/bird-media-2/1200/800",
+    "url": "https://static.wixstatic.com/media/017155_3911f89a8e3846449a66de82417002c6~mv2.jpg",
     "label": "預設 活動照片",
     "createdAt": "2026-04-20T06:00:00.000Z"
   }

@@ -1,30 +1,10 @@
-import { HomePage } from "@/components/home/home-page";
-import {
-  getGalleryItems,
-  getHomepageSectionMap,
-  getSiteSettings,
-} from "@/lib/content-store";
+import { BirdGuideRebuild } from "@/components/birds/bird-guide-rebuild";
+import { getBirds } from "@/lib/content-store";
 
 export const dynamic = "force-dynamic";
 
-export default async function Page({
-  searchParams,
-}: {
-  searchParams: Promise<{ subscribed?: string }>;
-}) {
-  const query = await searchParams;
-  const [settings, sections, galleryItems] = await Promise.all([
-    getSiteSettings(),
-    getHomepageSectionMap(),
-    getGalleryItems(),
-  ]);
+export default async function Page() {
+  const birds = await getBirds();
 
-  return (
-    <HomePage
-      settings={settings}
-      sections={sections}
-      galleryItems={galleryItems}
-      subscribed={query.subscribed === "1"}
-    />
-  );
+  return <BirdGuideRebuild birds={birds} />;
 }
