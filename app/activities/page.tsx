@@ -42,14 +42,14 @@ export default async function ActivitiesPage() {
                   />
                 </div>
                 <div className="p-6 md:p-8">
-                  <div className="flex flex-wrap gap-3 text-sm text-white/48">
+                  <div className="flex flex-wrap gap-3 text-sm text-forest-700/70">
                     <span>{activity.date}</span>
                     <span>{activity.time}</span>
                     <span>{activity.location}</span>
                   </div>
-                  <h2 className="mt-4 text-3xl font-semibold text-mist">{activity.title}</h2>
-                  <p className="mt-5 text-base leading-8 text-white/64">{activity.description}</p>
-                  <div className="mt-6 grid gap-3 text-sm text-white/56 sm:grid-cols-3">
+                  <h2 className="mt-4 text-3xl font-semibold text-forest-900">{activity.title}</h2>
+                  <p className="mt-5 text-base leading-8 text-forest-700">{activity.description}</p>
+                  <div className="mt-6 grid gap-3 text-sm text-forest-700/80 sm:grid-cols-3">
                     <span>{activity.price || "費用待確認"}</span>
                     <span>{activity.duration || "時間依活動公告"}</span>
                     <span>{activity.meetingPoint || activity.location}</span>

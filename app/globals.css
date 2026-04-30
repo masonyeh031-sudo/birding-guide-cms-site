@@ -52,9 +52,10 @@ img {
   padding: 5rem 0;
 }
 
+/* Wix 淺色風格：所有 .site-* 類別與 rich-text 都以森林綠為主色。 */
 .rich-text p {
   margin: 0 0 1rem;
-  color: rgba(244, 247, 251, 0.78);
+  color: #315242;
   line-height: 1.9;
 }
 
@@ -62,7 +63,7 @@ img {
 .rich-text ol {
   margin: 0 0 1rem;
   padding-left: 1.25rem;
-  color: rgba(244, 247, 251, 0.78);
+  color: #315242;
   line-height: 1.9;
 }
 
@@ -70,29 +71,28 @@ img {
 .rich-text h3,
 .rich-text h4 {
   margin: 0 0 0.85rem;
-  color: #f4f7fb;
+  color: #22362f;
   line-height: 1.25;
 }
 
 .site-panel {
-  border: 1px solid rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(49, 82, 66, 0.12);
   border-radius: 8px;
-  background: linear-gradient(180deg, rgba(24, 30, 38, 0.94) 0%, rgba(10, 13, 18, 0.96) 100%);
-  box-shadow: 0 30px 90px rgba(0, 0, 0, 0.38);
+  background: #ffffff;
+  box-shadow: 0 20px 50px rgba(31, 42, 38, 0.08);
 }
 
 .site-panel-soft {
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(49, 82, 66, 0.08);
   border-radius: 8px;
-  background: rgba(255, 255, 255, 0.04);
-  box-shadow: 0 18px 48px rgba(0, 0, 0, 0.24);
-  backdrop-filter: blur(14px);
+  background: rgba(245, 250, 247, 0.9);
+  box-shadow: 0 12px 30px rgba(31, 42, 38, 0.06);
 }
 
 .site-label {
   display: block;
   margin-bottom: 0.45rem;
-  color: rgba(244, 247, 251, 0.76);
+  color: #315242;
   font-size: 0.92rem;
   font-weight: 600;
 }
@@ -100,11 +100,11 @@ img {
 .site-input,
 .site-textarea {
   width: 100%;
-  border: 1px solid rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(49, 82, 66, 0.18);
   border-radius: 8px;
-  background: rgba(255, 255, 255, 0.04);
+  background: #ffffff;
   padding: 0.85rem 0.95rem;
-  color: #f4f7fb;
+  color: #1f2a26;
   outline: none;
   transition:
     border-color 0.2s ease,
@@ -119,14 +119,13 @@ img {
 
 .site-input::placeholder,
 .site-textarea::placeholder {
-  color: rgba(244, 247, 251, 0.36);
+  color: rgba(49, 82, 66, 0.4);
 }
 
 .site-input:focus,
 .site-textarea:focus {
-  border-color: rgba(196, 255, 109, 0.55);
-  background: rgba(255, 255, 255, 0.06);
-  box-shadow: 0 0 0 3px rgba(196, 255, 109, 0.12);
+  border-color: rgba(49, 82, 66, 0.5);
+  box-shadow: 0 0 0 3px rgba(78, 127, 102, 0.18);
 }
 
 .site-button-primary,
@@ -147,25 +146,25 @@ img {
 }
 
 .site-button-primary {
-  background: #c4ff6d;
-  color: #081008;
+  background: #294138;
+  color: #ffffff;
 }
 
 .site-button-primary:hover {
   transform: translateY(-1px);
-  background: #d4ff95;
+  background: #315242;
 }
 
 .site-button-secondary {
-  border: 1px solid rgba(255, 255, 255, 0.14);
-  background: rgba(255, 255, 255, 0.04);
-  color: #f4f7fb;
+  border: 1px solid rgba(49, 82, 66, 0.2);
+  background: #ffffff;
+  color: #294138;
 }
 
 .site-button-secondary:hover {
   transform: translateY(-1px);
-  border-color: rgba(255, 255, 255, 0.28);
-  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(49, 82, 66, 0.4);
+  background: rgba(245, 250, 247, 1);
 }
 
 .admin-label {

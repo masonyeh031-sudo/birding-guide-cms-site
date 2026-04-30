@@ -1,4 +1,6 @@
 import { AdminShell } from "@/components/admin/admin-shell";
+import { ConfirmSubmitButton } from "@/components/admin/confirm-submit-button";
+import { FormDirtyIndicator } from "@/components/admin/form-dirty-indicator";
 import { MessageBanner } from "@/components/admin/message-banner";
 import { requireAdmin } from "@/lib/auth";
 import { getGalleryItems, getMediaLibrary } from "@/lib/content-store";
@@ -62,9 +64,12 @@ export default async function AdminGalleryPage({
               <label className="admin-label">排序</label>
               <input name="sortOrder" type="number" defaultValue="99" className="admin-input" />
             </div>
-            <button className="rounded-lg bg-forest-700 px-5 py-3 text-sm font-semibold text-white">
-              新增 Gallery 圖片
-            </button>
+            <div className="flex flex-wrap items-center gap-3">
+              <button className="rounded-lg bg-forest-700 px-5 py-3 text-sm font-semibold text-white">
+                新增 Gallery 圖片
+              </button>
+              <FormDirtyIndicator />
+            </div>
           </form>
 
           <div className="mt-6 space-y-4">
@@ -99,16 +104,18 @@ export default async function AdminGalleryPage({
                       <label className="admin-label">排序</label>
                       <input name="sortOrder" type="number" defaultValue={item.sortOrder} className="admin-input" />
                     </div>
-                    <div className="flex flex-wrap gap-3">
+                    <div className="flex flex-wrap items-center gap-3">
                       <button className="rounded-lg bg-forest-700 px-4 py-3 text-sm font-semibold text-white">
                         儲存
                       </button>
-                      <button
+                      <ConfirmSubmitButton
                         formAction={`/api/admin/gallery/${item.id}?type=gallery`}
-                        className="rounded-lg border border-red-200 px-4 py-3 text-sm font-semibold text-red-600"
+                        className="rounded-lg border border-red-200 px-4 py-3 text-sm font-semibold text-red-600 hover:bg-red-50"
+                        message={`確定要刪除圖片「${item.caption}」嗎？此動作無法復原。`}
                       >
                         刪除
-                      </button>
+                      </ConfirmSubmitButton>
+                      <FormDirtyIndicator />
                     </div>
                   </div>
                 </div>
@@ -140,9 +147,12 @@ export default async function AdminGalleryPage({
                 <input name="files" type="file" accept="image/*" multiple className="admin-input" />
               </div>
             </div>
-            <button className="rounded-lg bg-forest-700 px-5 py-3 text-sm font-semibold text-white">
-              加入媒體庫
-            </button>
+            <div className="flex flex-wrap items-center gap-3">
+              <button className="rounded-lg bg-forest-700 px-5 py-3 text-sm font-semibold text-white">
+                加入媒體庫
+              </button>
+              <FormDirtyIndicator />
+            </div>
           </form>
 
           <div className="mt-6 space-y-4">
@@ -173,13 +183,18 @@ export default async function AdminGalleryPage({
                       <label className="admin-label">替換圖片</label>
                       <input name="file" type="file" accept="image/*" className="admin-input" />
                     </div>
-                    <div className="flex flex-wrap gap-3">
+                    <div className="flex flex-wrap items-center gap-3">
                       <button className="rounded-lg bg-forest-700 px-4 py-3 text-sm font-semibold text-white">
                         儲存媒體
                       </button>
-                      <button className="rounded-lg border border-red-200 px-4 py-3 text-sm font-semibold text-red-600">
+                      <ConfirmSubmitButton
+                        formAction={`/api/admin/gallery/${item.id}?type=media`}
+                        className="rounded-lg border border-red-200 px-4 py-3 text-sm font-semibold text-red-600 hover:bg-red-50"
+                        message={`確定要從媒體庫刪除「${item.label}」嗎？此動作無法復原。`}
+                      >
                         刪除媒體
-                      </button>
+                      </ConfirmSubmitButton>
+                      <FormDirtyIndicator />
                     </div>
                   </div>
                 </div>

@@ -35,40 +35,40 @@ export default async function ActivityDetailPage({
     <div className="min-h-screen bg-page-glow">
       <Navbar settings={settings} />
       <main>
-        <section className="relative overflow-hidden border-b border-white/10">
+        <section className="relative overflow-hidden border-b border-forest-100">
           <div className="absolute inset-0 bg-site-grid [background-size:42px_42px] opacity-[0.08]" />
           <div className="content-shell relative grid gap-10 py-14 lg:grid-cols-[0.92fr_1.08fr] lg:items-center">
             <div>
               <Link href="/activities" className="text-sm font-semibold text-signal">
                 返回所有活動
               </Link>
-              <p className="mt-6 text-sm font-semibold uppercase tracking-[0.16em] text-white/52">
+              <p className="mt-6 text-sm font-semibold uppercase tracking-[0.16em] text-forest-700/70">
                 查看報名資訊
               </p>
-              <h1 className="mt-4 text-balance text-4xl font-bold leading-tight text-mist md:text-6xl">
+              <h1 className="mt-4 text-balance text-4xl font-bold leading-tight text-forest-900 md:text-6xl">
                 {activity.title}
               </h1>
-              <p className="mt-5 text-base leading-8 text-white/68 md:text-lg">
+              <p className="mt-5 text-base leading-8 text-forest-700/85 md:text-lg">
                 {activity.description}
               </p>
-              <div className="mt-7 grid gap-3 text-sm text-white/72 sm:grid-cols-2">
+              <div className="mt-7 grid gap-3 text-sm text-forest-700 sm:grid-cols-2">
                 <div className="site-panel-soft p-4">
-                  <p className="text-white/42">日期</p>
-                  <p className="mt-1 font-semibold text-mist">{formatDate(activity.date)}</p>
+                  <p className="text-forest-700/60">日期</p>
+                  <p className="mt-1 font-semibold text-forest-900">{formatDate(activity.date)}</p>
                 </div>
                 <div className="site-panel-soft p-4">
-                  <p className="text-white/42">時間</p>
-                  <p className="mt-1 font-semibold text-mist">{activity.time}</p>
+                  <p className="text-forest-700/60">時間</p>
+                  <p className="mt-1 font-semibold text-forest-900">{activity.time}</p>
                 </div>
                 <div className="site-panel-soft p-4">
-                  <p className="text-white/42">集合地點</p>
-                  <p className="mt-1 font-semibold text-mist">
+                  <p className="text-forest-700/60">集合地點</p>
+                  <p className="mt-1 font-semibold text-forest-900">
                     {activity.meetingPoint || activity.location}
                   </p>
                 </div>
                 <div className="site-panel-soft p-4">
-                  <p className="text-white/42">費用</p>
-                  <p className="mt-1 font-semibold text-mist">{activity.price || "現場公告"}</p>
+                  <p className="text-forest-700/60">費用</p>
+                  <p className="mt-1 font-semibold text-forest-900">{activity.price || "現場公告"}</p>
                 </div>
               </div>
             </div>
@@ -83,8 +83,8 @@ export default async function ActivityDetailPage({
             <div className="space-y-6">
               <section className="site-panel p-6">
                 <p className="site-label">活動內容</p>
-                <h2 className="text-2xl font-semibold text-mist">當天會怎麼進行</h2>
-                <ol className="mt-5 space-y-4 text-sm leading-7 text-white/66">
+                <h2 className="text-2xl font-semibold text-forest-900">當天會怎麼進行</h2>
+                <ol className="mt-5 space-y-4 text-sm leading-7 text-forest-700/85">
                   {(activity.schedule?.length ? activity.schedule : [activity.description]).map(
                     (item) => (
                       <li key={item} className="border-l border-signal/50 pl-4">
@@ -104,7 +104,7 @@ export default async function ActivityDetailPage({
                     (item) => (
                       <div
                         key={item}
-                        className="rounded-lg border border-white/10 bg-white/[0.03] px-4 py-3 text-sm text-white/68"
+                        className="rounded-lg border border-forest-200 bg-forest-50 px-4 py-3 text-sm text-forest-700/85"
                       >
                         {item}
                       </div>
@@ -115,7 +115,7 @@ export default async function ActivityDetailPage({
 
               <section className="site-panel p-6">
                 <p className="site-label">注意事項</p>
-                <ul className="mt-4 space-y-3 text-sm leading-7 text-white/64">
+                <ul className="mt-4 space-y-3 text-sm leading-7 text-forest-700/80">
                   {(activity.notices?.length
                     ? activity.notices
                     : ["請準時集合，並穿著適合步行的鞋子。"]).map((item) => (
@@ -127,118 +127,105 @@ export default async function ActivityDetailPage({
 
             <section id="register" className="site-panel p-6 md:p-8">
               <p className="site-label">賞鳥報名</p>
-              <h2 className="text-3xl font-semibold text-mist">填寫報名表單</h2>
-              <p className="mt-3 text-sm leading-7 text-white/62">
-                送出後會先進入待確認名單，導覽人員會再用 Email 或電話和你確認付款與集合細節。
+              <h2 className="text-3xl font-semibold text-forest-900">填寫報名表單</h2>
+              <p className="mt-3 text-sm leading-7 text-forest-700/80">
+                請每位成人各填一份報名表；國小以下兒童請另行填寫。送出後導覽人員會再用 Email 或電話和您確認集合細節與付款資訊。
               </p>
 
               {query.status === "registered" ? (
-                <div className="mt-6 rounded-lg border border-signal/40 bg-signal/10 px-4 py-3 text-sm font-semibold text-signal">
-                  已收到報名資料，後台可以查看這筆報名。
+                <div className="mt-6 rounded-lg border border-forest-300 bg-forest-50 px-4 py-3 text-sm font-semibold text-forest-800">
+                  已收到您的報名資料，後續會再聯絡您。
                 </div>
               ) : null}
               {query.status === "invalid" ? (
-                <div className="mt-6 rounded-lg border border-red-300/40 bg-red-500/10 px-4 py-3 text-sm font-semibold text-red-100">
-                  請確認姓名、Email、電話與同意勾選都已填寫。
+                <div className="mt-6 rounded-lg border border-red-300 bg-red-50 px-4 py-3 text-sm font-semibold text-red-700">
+                  請確認所有必填欄位都已填寫，並勾選同意。
                 </div>
               ) : null}
 
               <form action="/api/register" method="post" className="mt-7 space-y-5">
                 <input type="hidden" name="activityId" value={activity.id} />
                 <input type="hidden" name="returnPath" value={returnPath} />
+                <input
+                  type="hidden"
+                  name="ticketType"
+                  value={`${activity.title} / ${activity.price || "費用待確認"}`}
+                />
 
-                <div className="rounded-lg border border-white/10 bg-white/[0.03] p-5">
+                <div className="rounded-lg border border-forest-200 bg-forest-50 p-5">
                   <label className="site-label">
-                    活動場次 <span className="text-signal">*</span>
+                    電子郵件 <span className="text-forest-600">*</span>
                   </label>
-                  <input
-                    name="ticketType"
-                    defaultValue={`${activity.title} / ${activity.price || "費用待確認"}`}
-                    className="site-input"
-                    required
-                  />
+                  <input name="email" type="email" className="site-input" required />
+                </div>
+
+                <div className="rounded-lg border border-forest-200 bg-forest-50 p-5">
+                  <p className="site-label">
+                    請問您繳交報名費了嗎？ <span className="text-forest-600">*</span>
+                  </p>
+                  <div className="mt-2 flex flex-col gap-2 text-sm text-forest-800">
+                    <label className="flex items-center gap-2">
+                      <input type="radio" name="paymentStatus" value="我已經匯款完了" required />
+                      我已經匯款完了
+                    </label>
+                    <label className="flex items-center gap-2">
+                      <input type="radio" name="paymentStatus" value="我要現場繳費" />
+                      我要現場繳費
+                    </label>
+                  </div>
                 </div>
 
                 <div className="grid gap-5 md:grid-cols-2">
-                  <div className="rounded-lg border border-white/10 bg-white/[0.03] p-5">
+                  <div className="rounded-lg border border-forest-200 bg-forest-50 p-5">
                     <label className="site-label">
-                      姓名 <span className="text-signal">*</span>
+                      您的姓名 <span className="text-forest-600">*</span>
                     </label>
                     <input name="name" className="site-input" required />
+                    <p className="mt-2 text-xs text-forest-700/70">
+                      一位成人填一份；國小以下兒童請另行填寫。
+                    </p>
                   </div>
-                  <div className="rounded-lg border border-white/10 bg-white/[0.03] p-5">
+                  <div className="rounded-lg border border-forest-200 bg-forest-50 p-5">
                     <label className="site-label">
-                      手機 <span className="text-signal">*</span>
+                      您的電話 <span className="text-forest-600">*</span>
                     </label>
                     <input name="phone" className="site-input" required />
                   </div>
                 </div>
 
-                <div className="grid gap-5 md:grid-cols-2">
-                  <div className="rounded-lg border border-white/10 bg-white/[0.03] p-5">
-                    <label className="site-label">
-                      Email <span className="text-signal">*</span>
+                <div className="rounded-lg border border-forest-200 bg-forest-50 p-5">
+                  <label className="site-label">
+                    Line ID <span className="text-forest-600">*</span>
+                  </label>
+                  <input name="lineId" className="site-input" required placeholder="沒有請填「沒有」" />
+                </div>
+
+                <div className="rounded-lg border border-forest-200 bg-forest-50 p-5">
+                  <p className="site-label">
+                    請問您現在是學生，還是已經就業了？ <span className="text-forest-600">*</span>
+                  </p>
+                  <div className="mt-2 flex flex-col gap-2 text-sm text-forest-800">
+                    <label className="flex items-center gap-2">
+                      <input type="radio" name="employmentStatus" value="學生" required />
+                      學生
                     </label>
-                    <input name="email" type="email" className="site-input" required />
-                  </div>
-                  <div className="rounded-lg border border-white/10 bg-white/[0.03] p-5">
-                    <label className="site-label">參加人數</label>
-                    <input
-                      name="participants"
-                      type="number"
-                      min="1"
-                      defaultValue="1"
-                      className="site-input"
-                    />
+                    <label className="flex items-center gap-2">
+                      <input type="radio" name="employmentStatus" value="就業" />
+                      就業
+                    </label>
+                    <label className="flex items-center gap-2">
+                      <input type="radio" name="employmentStatus" value="退休" />
+                      退休
+                    </label>
                   </div>
                 </div>
 
-                <div className="rounded-lg border border-white/10 bg-white/[0.03] p-5">
-                  <label className="site-label">同行者姓名</label>
-                  <textarea
-                    name="companionNames"
-                    className="site-textarea"
-                    placeholder="若有同行者，可填寫姓名或稱呼。"
-                  />
-                </div>
-
-                <div className="grid gap-5 md:grid-cols-2">
-                  <div className="rounded-lg border border-white/10 bg-white/[0.03] p-5">
-                    <label className="site-label">賞鳥經驗</label>
-                    <select name="experience" className="site-input" defaultValue="第一次參加">
-                      <option>第一次參加</option>
-                      <option>參加過 1-2 次</option>
-                      <option>已有固定觀察經驗</option>
-                      <option>想以攝影為主</option>
-                    </select>
-                  </div>
-                  <div className="rounded-lg border border-white/10 bg-white/[0.03] p-5">
-                    <label className="site-label">從哪裡看到活動</label>
-                    <select name="source" className="site-input" defaultValue="官網">
-                      <option>官網</option>
-                      <option>Instagram</option>
-                      <option>Facebook</option>
-                      <option>YouTube</option>
-                      <option>朋友推薦</option>
-                    </select>
-                  </div>
-                </div>
-
-                <div className="rounded-lg border border-white/10 bg-white/[0.03] p-5">
-                  <label className="site-label">備註 / 特殊需求</label>
-                  <textarea
-                    name="needs"
-                    className="site-textarea"
-                    placeholder="例如：小朋友年齡、是否需提前離開、是否不方便入鏡。"
-                  />
-                </div>
-
-                <label className="flex gap-3 rounded-lg border border-white/10 bg-white/[0.03] p-5 text-sm leading-6 text-white/68">
+                <label className="flex gap-3 rounded-lg border border-forest-200 bg-forest-50 p-5 text-sm leading-6 text-forest-700/85">
                   <input
                     name="agreement"
                     type="checkbox"
                     value="yes"
-                    className="mt-1 h-4 w-4 rounded border-white/20"
+                    className="mt-1 h-4 w-4 rounded border-forest-300"
                     required
                   />
                   <span>

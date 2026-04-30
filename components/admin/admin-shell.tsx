@@ -10,7 +10,6 @@ const adminNavGroups = [
     label: "內容管理",
     items: [
       { href: "/admin/homepage", label: "首頁內容" },
-      { href: "/admin/birds", label: "鳥類資料" },
       { href: "/admin/posts", label: "導覽日記" },
       { href: "/admin/activities", label: "活動資訊" },
       { href: "/admin/services", label: "服務項目" },

@@ -46,14 +46,14 @@ export default async function ServicesPage() {
                     {service.duration}
                   </p>
                   <h2 className="mt-4 text-3xl font-semibold text-mist">{service.title}</h2>
-                  <p className="mt-3 text-base leading-8 text-white/72">{service.subtitle}</p>
-                  <p className="mt-5 text-sm leading-7 text-white/58">{service.description}</p>
-                  <div className="mt-6 rounded-lg border border-white/10 bg-white/[0.03] px-4 py-3 text-sm font-semibold text-mist">
+                  <p className="mt-3 text-base leading-8 text-forest-700">{service.subtitle}</p>
+                  <p className="mt-5 text-sm leading-7 text-forest-700/80">{service.description}</p>
+                  <div className="mt-6 rounded-lg border border-forest-200 bg-forest-50 px-4 py-3 text-sm font-semibold text-mist">
                     {service.price}
                   </div>
-                  <ul className="mt-5 grid gap-3 text-sm leading-7 text-white/62 md:grid-cols-2">
+                  <ul className="mt-5 grid gap-3 text-sm leading-7 text-forest-700/85 md:grid-cols-2">
                     {service.features.map((feature) => (
-                      <li key={feature} className="rounded-lg border border-white/10 bg-white/[0.03] px-4 py-3">
+                      <li key={feature} className="rounded-lg border border-forest-200 bg-forest-50 px-4 py-3">
                         {feature}
                       </li>
                     ))}

@@ -1,4 +1,5 @@
 import { AdminShell } from "@/components/admin/admin-shell";
+import { FormDirtyIndicator } from "@/components/admin/form-dirty-indicator";
 import { MessageBanner } from "@/components/admin/message-banner";
 import { requireAdmin } from "@/lib/auth";
 
@@ -44,9 +45,12 @@ export default async function AdminAccountPage({
             <input name="nextPassword" type="password" className="admin-input" />
           </div>
         </div>
-        <button className="mt-6 rounded-lg bg-forest-700 px-5 py-3 text-sm font-semibold text-white">
-          儲存帳號設定
-        </button>
+        <div className="mt-6 flex flex-wrap items-center gap-3">
+          <button className="rounded-lg bg-forest-700 px-5 py-3 text-sm font-semibold text-white">
+            儲存帳號設定
+          </button>
+          <FormDirtyIndicator />
+        </div>
       </form>
     </AdminShell>
   );

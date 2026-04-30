@@ -1,6 +1,8 @@
 import Link from "next/link";
 
 import { AdminShell } from "@/components/admin/admin-shell";
+import { ConfirmSubmitButton } from "@/components/admin/confirm-submit-button";
+import { FormDirtyIndicator } from "@/components/admin/form-dirty-indicator";
 import { MessageBanner } from "@/components/admin/message-banner";
 import { RichTextEditor } from "@/components/admin/rich-text-editor";
 import { requireAdmin } from "@/lib/auth";
@@ -123,18 +125,20 @@ export default async function AdminPostsPage({
             </div>
           </div>
 
-          <div className="mt-6 flex flex-wrap gap-3">
+          <div className="mt-6 flex flex-wrap items-center gap-3">
             <button className="rounded-lg bg-forest-700 px-5 py-3 text-sm font-semibold text-white">
               儲存貼文
             </button>
             {!isNew && current.id ? (
-              <button
+              <ConfirmSubmitButton
                 formAction={`/api/admin/posts/${current.id}`}
-                className="rounded-lg border border-red-200 px-5 py-3 text-sm font-semibold text-red-600"
+                className="rounded-lg border border-red-200 px-5 py-3 text-sm font-semibold text-red-600 hover:bg-red-50"
+                message="確定要刪除此貼文嗎？此動作無法復原。"
               >
                 刪除貼文
-              </button>
+              </ConfirmSubmitButton>
             ) : null}
+            <FormDirtyIndicator />
           </div>
         </form>
       </div>

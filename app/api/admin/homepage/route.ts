@@ -35,6 +35,8 @@ export async function POST(request: NextRequest) {
   }
 
   const now = new Date().toISOString();
+  // 讀取「是否顯示於前台」開關，表單未傳時視為隱藏
+  target.visible = getString(formData.get("visible")) === "1";
 
   if (sectionKey === "hero" || sectionKey === "about") {
     const fileValue = formData.get("imageFile");
@@ -99,12 +101,23 @@ export async function POST(request: NextRequest) {
   }
 
   if (sectionKey === "flow") {
-    const items: FlowItem[] = Array.from({ length: 4 }, (_, index) => ({
-      id: getString(formData.get(`flowId-${index}`)) || `flow-${index + 1}`,
-      step: getString(formData.get(`flowStep-${index}`)),
-      title: getString(formData.get(`flowTitle-${index}`)),
-      content: getString(formData.get(`flowContent-${index}`)),
-    }));
+    const items: FlowItem[] = await Promise.all(
+      Array.from({ length: 4 }, (_, index) => index).map(async (index) => {
+        const fileValue = formData.get(`flowImageFile-${index}`);
+        const file = fileValue instanceof File ? fileValue : null;
+        const uploadedUrl = await saveUploadedFile(file, `flow-${index + 1}`);
+        if (uploadedUrl) {
+          await addMediaRecord(uploadedUrl, `flow image ${index + 1}`);
+        }
+        return {
+          id: getString(formData.get(`flowId-${index}`)) || `flow-${index + 1}`,
+          step: getString(formData.get(`flowStep-${index}`)),
+          title: getString(formData.get(`flowTitle-${index}`)),
+          content: getString(formData.get(`flowContent-${index}`)),
+          image: uploadedUrl || getString(formData.get(`flowImage-${index}`)),
+        };
+      }),
+    );
 
     target.title = getString(formData.get("title"));
     target.subtitle = getString(formData.get("subtitle"));

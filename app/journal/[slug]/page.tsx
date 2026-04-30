@@ -29,25 +29,24 @@ export default async function JournalDetailPage({
           <Link href="/journal" className="text-sm font-semibold text-signal">
             返回導覽日記
           </Link>
-          <div className="mt-6 flex flex-wrap gap-3 text-sm text-white/48">
+          <div className="mt-6 flex flex-wrap gap-3 text-sm text-forest-700/70">
             <span>{formatDate(post.createdAt)}</span>
             <span>{post.category}</span>
           </div>
-          <h1 className="mt-4 max-w-4xl text-balance text-4xl font-bold leading-tight text-mist md:text-6xl">
+          <h1 className="mt-4 max-w-4xl text-balance text-4xl font-bold leading-tight text-forest-900 md:text-6xl">
             {post.title}
           </h1>
-          <div className="mt-8 relative aspect-[16/9] overflow-hidden rounded-lg border border-white/10 shadow-site">
+          <div className="mt-8 relative aspect-[16/9] overflow-hidden rounded-lg border border-forest-100 shadow-card">
             <img
               src={post.coverImage}
               alt={post.title}
               className="absolute inset-0 h-full w-full object-cover"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-carbon-950/84 via-transparent to-transparent" />
           </div>
           <div className="rich-text mt-10 max-w-3xl" dangerouslySetInnerHTML={{ __html: post.content }} />
-          <div className="mt-8 flex flex-wrap gap-2 text-sm text-white/60">
+          <div className="mt-8 flex flex-wrap gap-2 text-sm text-forest-700/85">
             {post.tags.map((tag) => (
-              <span key={tag} className="rounded-full border border-white/12 bg-white/6 px-3 py-1">
+              <span key={tag} className="rounded-full border border-forest-200 bg-forest-50 px-3 py-1">
                 #{tag}
               </span>
             ))}

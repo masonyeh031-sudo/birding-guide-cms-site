@@ -1,6 +1,8 @@
 import Link from "next/link";
 
 import { AdminShell } from "@/components/admin/admin-shell";
+import { ConfirmSubmitButton } from "@/components/admin/confirm-submit-button";
+import { FormDirtyIndicator } from "@/components/admin/form-dirty-indicator";
 import { MessageBanner } from "@/components/admin/message-banner";
 import { requireAdmin } from "@/lib/auth";
 import { getServices } from "@/lib/content-store";
@@ -147,18 +149,20 @@ export default async function AdminServicesPage({
               />
             </div>
           </div>
-          <div className="mt-6 flex flex-wrap gap-3">
+          <div className="mt-6 flex flex-wrap items-center gap-3">
             <button className="rounded-lg bg-forest-700 px-5 py-3 text-sm font-semibold text-white">
               儲存服務
             </button>
             {!isNew && current.id ? (
-              <button
+              <ConfirmSubmitButton
                 formAction={`/api/admin/services/${current.id}`}
-                className="rounded-lg border border-red-200 px-5 py-3 text-sm font-semibold text-red-600"
+                className="rounded-lg border border-red-200 px-5 py-3 text-sm font-semibold text-red-600 hover:bg-red-50"
+                message="確定要刪除此服務嗎？此動作無法復原。"
               >
                 刪除服務
-              </button>
+              </ConfirmSubmitButton>
             ) : null}
+            <FormDirtyIndicator />
           </div>
         </form>
       </div>

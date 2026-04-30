@@ -1,5 +1,6 @@
 import { AdminShell } from "@/components/admin/admin-shell";
 import { MessageBanner } from "@/components/admin/message-banner";
+import { SectionControls } from "@/components/admin/section-controls";
 import { requireAdmin } from "@/lib/auth";
 import { getHomepageSectionMap } from "@/lib/content-store";
 import type {
@@ -45,7 +46,7 @@ export default async function AdminHomepagePage({
         className="admin-card rounded-lg p-6"
       >
         <input type="hidden" name="sectionKey" value="hero" />
-        <h2 className="text-xl font-semibold text-forest-900">Hero 主視覺</h2>
+        <SectionControls heading="Hero 主視覺" defaultVisible={sections.hero.visible !== false} />
         <div className="mt-5 grid gap-5 md:grid-cols-2">
           <div className="md:col-span-2">
             <label className="admin-label">大標題</label>
@@ -107,7 +108,7 @@ export default async function AdminHomepagePage({
 
       <form action="/api/admin/homepage" method="post" className="admin-card rounded-lg p-6">
         <input type="hidden" name="sectionKey" value="news" />
-        <h2 className="text-xl font-semibold text-forest-900">最新消息</h2>
+        <SectionControls heading="最新消息" defaultVisible={sections.news.visible !== false} />
         <div className="mt-5 grid gap-5">
           <div>
             <label className="admin-label">區塊標題</label>
@@ -185,7 +186,7 @@ export default async function AdminHomepagePage({
         className="admin-card rounded-lg p-6"
       >
         <input type="hidden" name="sectionKey" value="about" />
-        <h2 className="text-xl font-semibold text-forest-900">關於我</h2>
+        <SectionControls heading="關於我" defaultVisible={sections.about.visible !== false} />
         <div className="mt-5 grid gap-5">
           <div>
             <label className="admin-label">標題</label>
@@ -215,7 +216,7 @@ export default async function AdminHomepagePage({
 
       <form action="/api/admin/homepage" method="post" className="admin-card rounded-lg p-6">
         <input type="hidden" name="sectionKey" value="stats" />
-        <h2 className="text-xl font-semibold text-forest-900">願景 / 目標 / 參與人數</h2>
+        <SectionControls heading="願景 / 目標 / 參與人數" defaultVisible={sections.stats.visible !== false} />
         <div className="mt-5 grid gap-5">
           <div>
             <label className="admin-label">區塊標題</label>
@@ -264,9 +265,14 @@ export default async function AdminHomepagePage({
         </button>
       </form>
 
-      <form action="/api/admin/homepage" method="post" className="admin-card rounded-lg p-6">
+      <form
+        action="/api/admin/homepage"
+        method="post"
+        encType="multipart/form-data"
+        className="admin-card rounded-lg p-6"
+      >
         <input type="hidden" name="sectionKey" value="flow" />
-        <h2 className="text-xl font-semibold text-forest-900">活動流程</h2>
+        <SectionControls heading="活動流程" defaultVisible={sections.flow.visible !== false} />
         <div className="mt-5 grid gap-5">
           <div>
             <label className="admin-label">標題</label>
@@ -312,6 +318,33 @@ export default async function AdminHomepagePage({
                   <label className="admin-label">步驟內容</label>
                   <textarea name={`flowContent-${index}`} defaultValue={item.content} className="admin-textarea" />
                 </div>
+                <div>
+                  <label className="admin-label">圖片網址（可直接貼 URL）</label>
+                  <input
+                    name={`flowImage-${index}`}
+                    defaultValue={item.image || ""}
+                    className="admin-input"
+                    placeholder="https://..."
+                  />
+                </div>
+                <div>
+                  <label className="admin-label">或上傳圖片檔</label>
+                  <input
+                    name={`flowImageFile-${index}`}
+                    type="file"
+                    accept="image/*"
+                    className="admin-input"
+                  />
+                </div>
+                {item.image ? (
+                  <div className="md:col-span-2">
+                    <img
+                      src={item.image}
+                      alt={item.title}
+                      className="h-32 w-48 rounded-lg border border-forest-200 object-cover"
+                    />
+                  </div>
+                ) : null}
               </div>
             </div>
           ))}
@@ -323,7 +356,7 @@ export default async function AdminHomepagePage({
 
       <form action="/api/admin/homepage" method="post" className="admin-card rounded-lg p-6">
         <input type="hidden" name="sectionKey" value="showcase" />
-        <h2 className="text-xl font-semibold text-forest-900">導覽活動開箱</h2>
+        <SectionControls heading="導覽活動開箱" defaultVisible={sections.showcase.visible !== false} />
         <div className="mt-5 grid gap-5">
           <div>
             <label className="admin-label">標題</label>
@@ -374,7 +407,7 @@ export default async function AdminHomepagePage({
 
       <form action="/api/admin/homepage" method="post" className="admin-card rounded-lg p-6">
         <input type="hidden" name="sectionKey" value="series" />
-        <h2 className="text-xl font-semibold text-forest-900">系列活動</h2>
+        <SectionControls heading="系列活動" defaultVisible={sections.series.visible !== false} />
         <div className="mt-5 grid gap-5">
           <div>
             <label className="admin-label">標題</label>
@@ -416,7 +449,7 @@ export default async function AdminHomepagePage({
 
       <form action="/api/admin/homepage" method="post" className="admin-card rounded-lg p-6">
         <input type="hidden" name="sectionKey" value="subscribe" />
-        <h2 className="text-xl font-semibold text-forest-900">訂閱區</h2>
+        <SectionControls heading="訂閱區" defaultVisible={sections.subscribe.visible !== false} />
         <div className="mt-5 grid gap-5">
           <div>
             <label className="admin-label">標題</label>

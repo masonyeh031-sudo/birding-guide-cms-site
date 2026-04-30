@@ -62,16 +62,16 @@ export default async function ContactPage({
             </form>
 
             <aside className="site-panel-soft p-6 md:p-8">
-              <h2 className="text-2xl font-semibold text-mist">聯絡資訊</h2>
-              <div className="mt-6 space-y-5 text-sm leading-7 text-white/64">
+              <h2 className="text-2xl font-semibold text-forest-900">聯絡資訊</h2>
+              <div className="mt-6 space-y-5 text-sm leading-7 text-forest-700/85">
                 <div>
-                  <p className="font-semibold text-signal">Email</p>
-                  <Link href={`mailto:${settings.contactEmail}`} className="hover:text-mist">
+                  <p className="font-semibold text-forest-700">Email</p>
+                  <Link href={`mailto:${settings.contactEmail}`} className="hover:text-forest-900">
                     {settings.contactEmail}
                   </Link>
                 </div>
                 <div>
-                  <p className="font-semibold text-signal">社群</p>
+                  <p className="font-semibold text-forest-700">社群</p>
                   <div className="mt-2 flex flex-wrap gap-3">
                     {settings.socialLinks.map((item) => (
                       <Link
@@ -79,7 +79,7 @@ export default async function ContactPage({
                         href={item.url}
                         target="_blank"
                         rel="noreferrer"
-                        className="rounded-lg border border-white/12 px-3 py-2 hover:text-mist"
+                        className="rounded-lg border border-forest-200 bg-white px-3 py-2 hover:bg-forest-50"
                       >
                         {item.label}
                       </Link>

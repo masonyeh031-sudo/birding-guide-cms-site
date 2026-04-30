@@ -2,78 +2,50 @@
   {
     "id": "home-hero",
     "sectionKey": "hero",
-    "title": "在城市裡，也能慢慢走進鳥類世界",
-    "subtitle": "這是一個結合賞鳥導覽、鳥類教育與自然觀察的平台，陪你從熟悉的公園與步道開始，看見都市與自然交會的生命節奏。",
-    "content": "帶著望遠鏡、筆記本與好奇心，從常見鳥種開始，理解棲地、行為與環境。",
+    "title": "鳥類導航：引導您進入鳥類的奇妙世界",
+    "subtitle": "透過都市公園賞鳥、行為觀察和導覽活動，重新看見鳥類的棲地、特徵和家族行為。",
+    "content": "",
     "image": "https://static.wixstatic.com/media/017155_3c9b61eeb30b4ca993ff5419cb13e6d7~mv2.jpg",
     "extraJson": {
+      "eyebrow": "Bird Guide",
       "primaryButtonLabel": "查看最新活動",
-      "primaryButtonHref": "#latest-news",
+      "primaryButtonHref": "/activities",
       "secondaryButtonLabel": "認識我",
       "secondaryButtonHref": "#about"
     },
-    "updatedAt": "2026-04-20T06:00:00.000Z"
+    "updatedAt": "2026-04-25T00:00:00.000Z"
   },
   {
     "id": "home-news",
     "sectionKey": "news",
     "title": "最新消息",
-    "subtitle": "從新手友善的公園導覽到主題觀察課，每次活動都會安排清楚的集合資訊與觀察重點。",
+    "subtitle": "2026.2.9（六）14:30 在大安森林公園舉辦 都市鳥類導覽活動",
     "content": "",
     "image": "",
     "extraJson": {
       "buttonLabel": "點我看更多",
       "buttonHref": "/activities",
-      "items": [
-        {
-          "id": "news-1",
-          "date": "05/03",
-          "time": "07:00 - 09:00",
-          "location": "大安森林公園",
-          "title": "晨光賞鳥導覽",
-          "summary": "認識城市常見鳥種與不同棲地線索。",
-          "buttonLabel": "查看更多",
-          "href": "/activities"
-        },
-        {
-          "id": "news-2",
-          "date": "05/10",
-          "time": "15:30 - 17:30",
-          "location": "青年公園",
-          "title": "黑冠麻鷺探險家",
-          "summary": "親子也能輕鬆加入的城市賞鳥主題活動。",
-          "buttonLabel": "查看更多",
-          "href": "/activities"
-        },
-        {
-          "id": "news-3",
-          "date": "05/17",
-          "time": "09:00 - 11:30",
-          "location": "板橋都會綠地",
-          "title": "雨天觀察課",
-          "summary": "用更慢的步調，重新認識雨後城市裡的鳥類行為。",
-          "buttonLabel": "查看更多",
-          "href": "/activities"
-        }
-      ]
+      "items": []
     },
-    "updatedAt": "2026-04-20T06:00:00.000Z"
+    "updatedAt": "2026-04-25T00:00:00.000Z"
   },
   {
     "id": "home-about",
     "sectionKey": "about",
     "title": "關於我",
-    "subtitle": "我是觀鳥人，也是城市裡帶路的賞鳥導覽者。",
-    "content": "我喜歡賞鳥、登山與自然觀察，更喜歡把這些經驗整理成大家聽得懂、走得進去的導覽活動。對我來說，賞鳥不只是看見羽毛顏色，而是理解牠們如何依靠棲地、如何移動、如何在城市邊緣與我們共處。透過導覽，我希望讓更多人知道：只要願意慢下來，都市裡也有豐富而細緻的鳥類世界。",
-    "image": "https://static.wixstatic.com/media/017155_51de381a988142c992eb6fb77255872f~mv2.jpeg",
-    "extraJson": {},
-    "updatedAt": "2026-04-20T06:00:00.000Z"
+    "subtitle": "帶路的人",
+    "content": "大家好我是觀鳥人，對於賞鳥和登山有興趣。之前運用 YouTube 頻道跟大家介紹鳥類的特徵和知識，後來決定舉辦賞鳥導覽活動，帶大家去都市公園賞鳥，介紹鳥類的棲息地、特徵和行為，讓更多人可以賞鳥，也能欣賞整個環境和家族的行為。",
+    "image": "https://static.wixstatic.com/media/017155_1a7a03ec00cd4342ad272d1bd0ee8fd4~mv2.jpg",
+    "extraJson": {
+      "eyebrow": "About"
+    },
+    "updatedAt": "2026-04-25T00:00:00.000Z"
   },
   {
     "id": "home-stats",
     "sectionKey": "stats",
-    "title": "和更多人一起打開觀察的視角",
-    "subtitle": "讓導覽不只是一次活動，而是一種重新看待生活環境的方法。",
+    "title": "願景、目標與目前參與人數",
+    "subtitle": "",
     "content": "",
     "image": "",
     "extraJson": {
@@ -82,102 +54,114 @@
           "id": "stat-1",
           "icon": "binoculars",
           "title": "願景",
-          "content": "改變大家對鳥類的想像，讓牠們不只是背景，而是值得被理解的鄰居。"
+          "content": "改變大家對鳥類的想像"
         },
         {
           "id": "stat-2",
           "icon": "leaf",
           "title": "目標",
-          "content": "讓更多人從一次導覽開始，對鳥類與棲地產生穩定而長久的興趣。"
+          "content": "讓大家對鳥類產生興趣"
         },
         {
           "id": "stat-3",
           "icon": "people",
           "title": "目前參與人數",
-          "content": "已陪伴城市裡的觀察者一起出走與記錄。",
+          "content": "",
           "value": "87 人"
         }
       ]
     },
-    "updatedAt": "2026-04-20T06:00:00.000Z"
+    "updatedAt": "2026-04-25T00:00:00.000Z"
   },
   {
     "id": "home-flow",
     "sectionKey": "flow",
     "title": "都市鳥類導覽活動流程",
-    "subtitle": "從集合說明到觀察分享，每一步都讓新手也能安心跟上。",
+    "subtitle": "",
     "content": "",
     "image": "",
     "extraJson": {
+      "eyebrow": "Tour Flow",
       "buttonLabel": "填寫導覽建議",
       "buttonHref": "/contact",
       "items": [
         {
           "id": "flow-1",
-          "step": "01",
-          "title": "活動介紹與集合",
-          "content": "確認今日路線、觀察主題與安全提醒，建立大家的觀察節奏。"
+          "step": "1",
+          "title": "常見鳥種認識",
+          "content": "運用看板和照片的方式，與大家介紹在都市常見的鳥類，如：喜鵲和五色鳥，讓大家外出散心時，可以透過賞鳥來自己辨識鳥類。"
         },
         {
           "id": "flow-2",
-          "step": "02",
-          "title": "觀察常見鳥種與棲地",
-          "content": "從草地、水域、樹冠層開始，理解不同環境裡常見的活動線索。"
+          "step": "2",
+          "title": "介紹如何辨識相似鳥種",
+          "content": "我也會透過看板的方式，來跟大家介紹在都市常見的相似鳥種，如：家八哥和白尾八哥、大白鷺和中白鷺的差異，讓大家了解每種鳥類的特徵。"
         },
         {
           "id": "flow-3",
-          "step": "03",
-          "title": "現地解說鳥類特徵與行為",
-          "content": "透過姿態、聲音、移動方式與覓食行為做初步辨識。"
+          "step": "3",
+          "title": "公園導覽",
+          "content": "跟大家介紹完都市常見鳥之後，會開始帶大家到園區走走，實際透過賞鳥的方式，複習剛剛介紹的鳥種，與相似鳥類的差異。"
         },
         {
           "id": "flow-4",
-          "step": "04",
-          "title": "記錄與分享觀察心得",
-          "content": "用簡單筆記留下今天看到的鳥與棲地，讓導覽結束後仍能延續觀察。"
+          "step": "4",
+          "title": "學習單複盤",
+          "content": "透過猜謎和繪畫的方式，幫大家複習剛剛帶大家認識的鳥種和特徵，加深大家對鳥類的印象。"
         }
       ]
     },
-    "updatedAt": "2026-04-20T06:00:00.000Z"
+    "updatedAt": "2026-04-25T00:00:00.000Z"
   },
   {
     "id": "home-showcase",
     "sectionKey": "showcase",
     "title": "導覽活動開箱",
-    "subtitle": "在都市公園、動物園周邊與校園綠帶裡，一邊走一邊觀察巢位、鳥類行為與棲地線索。",
-    "content": "我會把導覽安排成容易進入的節奏，不急著追鳥，而是先學會看環境。當大家開始注意到水邊、樹縫、草地與高空之間的差異時，鳥類就不再只是偶然出現，而是會慢慢變成看得懂的生活風景。",
+    "subtitle": "觀鳥人的導覽活動系列包含都會公園賞鳥活動與黑冠麻鷺探險家，活動照片會分享給大家，也會上傳到社群媒體。",
+    "content": "",
     "image": "",
     "extraJson": {
+      "eyebrow": "Gallery",
       "images": [
         {
           "id": "show-1",
-          "title": "集合後的雙筒望遠鏡示範",
+          "title": "在木柵動物園帶領大家去賞鳥。",
           "image": "https://static.wixstatic.com/media/017155_3911f89a8e3846449a66de82417002c6~mv2.jpg"
         },
         {
           "id": "show-2",
-          "title": "水岸邊的停棲觀察",
+          "title": "正在帶領大家觀賞綠簑鴿的鳥巢。",
           "image": "https://static.wixstatic.com/media/017155_64583eb3f6334f7bbfbdef9e0f50090d~mv2.jpg"
         },
         {
           "id": "show-3",
-          "title": "帶隊記錄常見鳥種",
+          "title": "正在帶領大家認識木柵鳥園的鳥類。",
           "image": "https://static.wixstatic.com/media/017155_e9ca2f01033a421e8f3d7be7d4fef874~mv2.jpg"
         },
         {
           "id": "show-4",
-          "title": "親子一起看巢位線索",
+          "title": "我用圖片的方式，請大家找找看小白鷺、黃頭鷺、中白鷺和大白鷺有無繁殖期的顏色差異。",
+          "image": "https://static.wixstatic.com/media/017155_cd1c65a24c7f427daebff27abcf4a527~mv2.jpg"
+        },
+        {
+          "id": "show-5",
+          "title": "在活動的尾端，正在帶領大家寫學習單，複習今天學到的鳥種和知識。",
           "image": "https://static.wixstatic.com/media/017155_8d19a63bc35c492ba5cfb87e86bbc54a~mv2.jpg"
+        },
+        {
+          "id": "show-6",
+          "title": "在中正紀念公園觀察黑冠麻鷺行為的影像。",
+          "image": "https://static.wixstatic.com/media/017155_fe8ebdceba964c1888260866fc482d2c~mv2.jpg"
         }
       ]
     },
-    "updatedAt": "2026-04-20T06:00:00.000Z"
+    "updatedAt": "2026-04-25T00:00:00.000Z"
   },
   {
     "id": "home-series",
     "sectionKey": "series",
     "title": "觀鳥人的導覽活動系列",
-    "subtitle": "從新手入門到主題探索，每一場都有不同的觀看方式。",
+    "subtitle": "",
     "content": "",
     "image": "",
     "extraJson": {
@@ -185,33 +169,35 @@
         {
           "id": "series-1",
           "title": "都會公園賞鳥活動",
-          "description": "給第一次參加的朋友，從常見鳥種、棲地結構與觀察節奏開始，帶你建立自己的入門方法。",
+          "description": "大安森林公園、青年公園和木柵動物園＿鳥園，來跟大家進行導覽。",
           "image": "https://static.wixstatic.com/media/017155_7c8b0326097948a4a36415485e86d9ac~mv2.jpg",
-          "href": "/activities"
+          "href": "/activities",
+          "buttonLabel": "看更多活動"
         },
         {
           "id": "series-2",
           "title": "黑冠麻鷺探險家",
-          "description": "以城市裡最有故事感的主角為核心，帶大家理解覓食、移動與與人共處的關係。",
+          "description": "紀錄黑冠麻鷺在雨天、草地、夜晚和公園環境中的行為。",
           "image": "https://static.wixstatic.com/media/017155_b0c7d18bd45b4961987bef38dbd348b8~mv2.jpg",
-          "href": "/activities"
+          "href": "/activities",
+          "buttonLabel": "看更多活動"
         }
       ]
     },
-    "updatedAt": "2026-04-20T06:00:00.000Z"
+    "updatedAt": "2026-04-25T00:00:00.000Z"
   },
   {
     "id": "home-subscribe",
     "sectionKey": "subscribe",
-    "title": "正在籌備中",
-    "subtitle": "訂閱我的導覽活動網站，馬上收到最新消息。",
+    "title": "訂閱我的導覽活動網站，馬上收到最新的消息～",
+    "subtitle": "正在籌備中。留下 Email，收到下一次賞鳥活動消息。",
     "content": "",
     "image": "",
     "extraJson": {
-      "placeholder": "輸入你的 Email",
-      "buttonLabel": "訂閱通知",
+      "placeholder": "Enter your email here",
+      "buttonLabel": "Sign Up",
       "successMessage": "已收到你的訂閱，之後有新活動會第一時間通知你。"
     },
-    "updatedAt": "2026-04-20T06:00:00.000Z"
+    "updatedAt": "2026-04-25T00:00:00.000Z"
   }
 ]

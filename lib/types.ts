@@ -69,6 +69,11 @@ export interface RegistrationRecord {
   phone: string;
   participants: number;
   ticketType: string;
+  // 依 Google Form 加入的欄位
+  lineId: string;
+  paymentStatus: string; // 我已經匯款完了 / 我要現場繳費
+  employmentStatus: string; // 學生 / 就業 / 退休
+  // 舊欄位保留為選填（向下相容，且仍可供後台檢視）
   companionNames: string;
   experience: string;
   needs: string;
@@ -123,6 +128,8 @@ export interface FlowItem {
   step: string;
   title: string;
   content: string;
+  // 流程步驟的插圖；未填則不顯示圖片。
+  image?: string;
 }
 
 export interface ShowcaseImage {
@@ -155,6 +162,8 @@ export interface HomepageSectionRecord {
   content: string;
   image: string;
   extraJson: Record<string, unknown>;
+  // 是否顯示於前台；undefined/true 皆視為顯示
+  visible?: boolean;
   updatedAt: string;
 }
 

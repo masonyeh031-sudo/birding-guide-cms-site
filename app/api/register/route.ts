@@ -24,6 +24,9 @@ export async function POST(request: NextRequest) {
   const name = getString(formData.get("name"));
   const email = getString(formData.get("email"));
   const phone = getString(formData.get("phone"));
+  const lineId = getString(formData.get("lineId"));
+  const paymentStatus = getString(formData.get("paymentStatus"));
+  const employmentStatus = getString(formData.get("employmentStatus"));
   const agreement = getString(formData.get("agreement"));
   const participantsRaw = Number(getString(formData.get("participants")));
   const participants =
@@ -32,7 +35,16 @@ export async function POST(request: NextRequest) {
   const activities = await getActivities();
   const activity = activities.find((item) => item.id === activityId);
 
-  if (!activity || !name || !isValidEmail(email) || !phone || agreement !== "yes") {
+  if (
+    !activity ||
+    !name ||
+    !isValidEmail(email) ||
+    !phone ||
+    !lineId ||
+    !paymentStatus ||
+    !employmentStatus ||
+    agreement !== "yes"
+  ) {
     return NextResponse.redirect(new URL(`${returnPath}?status=invalid`, request.url));
   }
 
@@ -46,6 +58,9 @@ export async function POST(request: NextRequest) {
     phone,
     participants,
     ticketType: getString(formData.get("ticketType")) || activity.price,
+    lineId,
+    paymentStatus,
+    employmentStatus,
     companionNames: getString(formData.get("companionNames")),
     experience: getString(formData.get("experience")),
     needs: getString(formData.get("needs")),

@@ -30,7 +30,8 @@ const config: Config = {
           900: "#22362f",
         },
         signal: "#c4ff6d",
-        mist: "#f4f7fb",
+        // `mist` 原本是深色主題的淺色文字；改為 Wix 淺色風格後，改指向深森林綠字色。
+        mist: "#22362f",
         sand: "#f3ecdf",
         sky: "#dceaf0",
         clay: "#b6845f",
@@ -43,14 +44,15 @@ const config: Config = {
         "site-soft": "0 18px 48px rgba(0, 0, 0, 0.24)",
       },
       backgroundImage: {
+        // Wix 淺色風格：頁面底色改為淺綠漸層。
         "page-glow":
-          "linear-gradient(180deg, #05070b 0%, #0a0d12 38%, #0c1117 100%)",
+          "linear-gradient(180deg, #f7fbf8 0%, #eef5f0 50%, #f7fbf8 100%)",
         "site-grid":
-          "linear-gradient(rgba(255,255,255,0.06) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.06) 1px, transparent 1px)",
+          "linear-gradient(rgba(49,82,66,0.08) 1px, transparent 1px), linear-gradient(90deg, rgba(49,82,66,0.08) 1px, transparent 1px)",
         "site-panel":
-          "linear-gradient(180deg, rgba(24,30,38,0.94) 0%, rgba(10,13,18,0.96) 100%)",
+          "linear-gradient(180deg, #ffffff 0%, rgba(245,250,247,0.95) 100%)",
         "site-border":
-          "linear-gradient(180deg, rgba(255,255,255,0.16), rgba(255,255,255,0.04))",
+          "linear-gradient(180deg, rgba(49,82,66,0.18), rgba(49,82,66,0.04))",
       },
       maxWidth: {
         "screen-shell": "1180px",

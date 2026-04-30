@@ -33,18 +33,18 @@ export default async function JournalPage() {
                     alt={post.title}
                     className="absolute inset-0 h-full w-full object-cover"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-carbon-950/84 via-transparent to-transparent" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-forest-900/60 via-transparent to-transparent" />
                 </div>
                 <div className="p-6">
-                  <div className="flex flex-wrap gap-3 text-sm text-white/48">
+                  <div className="flex flex-wrap gap-3 text-sm text-forest-700/70">
                     <span>{formatDate(post.createdAt)}</span>
                     <span>{post.category}</span>
                   </div>
-                  <h2 className="mt-4 text-2xl font-semibold text-mist">{post.title}</h2>
-                  <p className="mt-4 text-sm leading-7 text-white/64">{post.excerpt}</p>
-                  <div className="mt-5 flex flex-wrap gap-2 text-xs text-white/62">
+                  <h2 className="mt-4 text-2xl font-semibold text-forest-900">{post.title}</h2>
+                  <p className="mt-4 text-sm leading-7 text-forest-700/85">{post.excerpt}</p>
+                  <div className="mt-5 flex flex-wrap gap-2 text-xs text-forest-700/80">
                     {post.tags.map((tag) => (
-                      <span key={tag} className="rounded-full border border-white/12 bg-white/6 px-3 py-1">
+                      <span key={tag} className="rounded-full border border-forest-200 bg-forest-50 px-3 py-1">
                         #{tag}
                       </span>
                     ))}

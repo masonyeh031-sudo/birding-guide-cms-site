@@ -36,8 +36,8 @@ export default async function PortfolioPage() {
                   />
                 </div>
                 <div className="p-6">
-                  <h2 className="text-2xl font-semibold text-mist">{item.title}</h2>
-                  <p className="mt-4 text-sm leading-7 text-white/64">{item.description}</p>
+                  <h2 className="text-2xl font-semibold text-forest-900">{item.title}</h2>
+                  <p className="mt-4 text-sm leading-7 text-forest-700/85">{item.description}</p>
                   <Link href={item.link || "#"} className="site-button-secondary mt-6">
                     查看內容
                   </Link>
