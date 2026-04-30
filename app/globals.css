@@ -229,3 +229,39 @@ img {
     column-count: 3;
   }
 }
+
+/* iOS Safari 不縮放 input */
+@media (max-width: 640px) {
+  .site-input,
+  .site-textarea,
+  .admin-input,
+  .admin-textarea,
+  .admin-select {
+    font-size: 16px;
+  }
+}
+
+/* Mobile sticky CTA */
+.mobile-cta-bar {
+  position: fixed;
+  inset-inline: 0;
+  bottom: 0;
+  z-index: 40;
+  display: flex;
+  gap: 0.5rem;
+  padding: 0.75rem 1rem;
+  border-top: 1px solid rgba(49, 82, 66, 0.12);
+  background: rgba(255, 255, 255, 0.96);
+  backdrop-filter: blur(12px);
+  box-shadow: 0 -8px 24px rgba(31, 42, 38, 0.08);
+}
+
+@media (min-width: 1024px) {
+  .mobile-cta-bar {
+    display: none;
+  }
+}
+
+.mobile-cta-bar .site-button-primary {
+  flex: 1;
+}

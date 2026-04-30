@@ -32,7 +32,7 @@ export default async function ActivityDetailPage({
   const returnPath = `/activities/${activity.id}`;
 
   return (
-    <div className="min-h-screen bg-page-glow">
+    <div className="min-h-screen bg-page-glow pb-24 lg:pb-0">
       <Navbar settings={settings} />
       <main>
         <section className="relative overflow-hidden border-b border-forest-100">
@@ -241,6 +241,11 @@ export default async function ActivityDetailPage({
           </div>
         </section>
       </main>
+
+      <div className="mobile-cta-bar">
+        <a href="#register" className="site-button-primary">立即報名</a>
+      </div>
+
       <Footer settings={settings} />
     </div>
   );
